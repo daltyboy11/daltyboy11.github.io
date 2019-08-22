@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
+title: about me
 permalink: /about/
 ---
 
-Some information about you!
+I'm an ambitious and personable senior software engineering student at the University of Waterloo. I have internship experience in backend web development at [Coursera](https://www.coursera.org/), and mobile (iOS) experience at [Kik Interactive](https://www.kik.com/). I'll be doing more iOS development at [Splunk](https://www.splunk.com/) this fall.
 
-### More Information
+When I'm not writing code I enjoy reading, working out, and salsa dancing.
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[daltyboy11@gmail.com](mailto:daltyboy11@gmail.com)
+I particularly enjoy reading (auto)biographies, history, economics, and politics. My favorite contemporary writers are Walter Isaacson, Niall Ferguson, and Thomas Sowell.
