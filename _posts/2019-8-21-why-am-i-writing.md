@@ -1,6 +1,6 @@
 ---
 layout: post
-title: why this site is a thing
+title: why I made this site
 ---
 
 ## to share ideas, views, and opinions
