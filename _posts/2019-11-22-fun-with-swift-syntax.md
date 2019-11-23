@@ -347,3 +347,6 @@ examples were linter inspired but if you come up with a creative use for
 SwiftSyntax let me know via email! :)
 
 # Source Code
+All the source code and test cases for this post are available as a Swift
+Package
+[here](https://github.com/daltyboy11/SwiftSyntaxDemo/blob/master/README.md).
