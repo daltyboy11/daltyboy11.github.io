@@ -335,7 +335,8 @@ Notice how it didn't modify the import. That's as expected because we didn't
 override the `visit(_:)` function for imports!
 
 ## The Meta Testcase
-For a more thorough test I rewrote `SnakeCaseRewriter` using snake case
+For a more thorough test I
+[rewrote](https://github.com/daltyboy11/SwiftSyntaxDemo/blob/master/Tests/SwiftSyntaxDemoTests/input4.txt) `SnakeCaseRewriter` using snake case
 declarations! After running the snake case version of `SnakeCaseRewriter`
 through `SnakeCaseRewriter`, the output was the original `SnakeCaseRewriter`
 source, as we would expect!
