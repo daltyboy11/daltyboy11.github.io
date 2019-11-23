@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mangling Swift source code with SwiftSyntax
+title: Mangling Swift Source Code With SwiftSyntax
 ---
 
 - [Introduction](#introduction)
@@ -34,6 +34,8 @@ file](#building-a-syntax-tree-from-a-source-file)
 
   - [Test Output](#test-output-1)
 
+  - [The Meta Testcase](#the-meta-testcase)
+
 - [Conclusion](#conclusion)
 
 - [Source Code](#source-code)
@@ -41,28 +43,29 @@ file](#building-a-syntax-tree-from-a-source-file)
 
 # Introduction
 At my work I recently added [SwiftLint](https://github.com/realm/SwiftLint) to
-one of our iOS apps. For the iOS devs out there with no linting on their
-projects, I highly recommend it!
+one of our iOS apps. I highly recommend it to the iOS devs out there with no
+linting on their projects!
 
 In order for SwiftLint to work its magic it has to be able to inspect and modify
-swift source code. The authors of SwiftLint opted for
-[SourceKit](https://github.com/apple/swift/tree/master/tools/SourceKit), a "framework for supporting IDE features like
-indexing, syntax-coloring, code-completion, etc." Working with SwiftLint at work
-got me curious about other frameworks that faciliate the mangling of Swift
+Swift source code. The authors of SwiftLint opted for
+[SourceKit](https://github.com/apple/swift/tree/master/tools/SourceKit), a _"framework for supporting IDE features like
+indexing, syntax-coloring, code-completion, etc."_  Working with SwiftLint
+piqued my curiosity about other frameworks that facilitate the handling of Swift
 source code. My googling led me to
 [SwiftSyntax](https://github.com/apple/swift-syntax), a set of Swift bindings
 for [libSyntax](https://github.com/apple/swift/tree/master/lib/Syntax). 
 
-I started playing around with SwiftSyntax because, well, it's cool. Here is
-a short tutorial by example on getting started with it. This tutorial assumes
-you are familiar with Swift and have an elementary understanding in programming
+I started tinkering with SwiftSyntax just for fun and built some linter-inspired
+source code rewriters. Here is
+a short tutorial by example on getting started with the framework. This tutorial assumes
+you are familiar with Swift and have an elementary understanding of programming
 language parsing.
 
 # Building a Syntax tree from a source file
 Each element in the source code's abstract syntax tree (AST) is represented as a struct inheriting from the 
 [`Syntax`](https://github.com/apple/swift-syntax/blob/master/Sources/SwiftSyntax/Syntax.swift) struct and
-adopting the `SyntaxProtocol` protocol. This protocol defines the attributes
-every node in the AST shares, such as children, its parent, and more. You can
+adopting the `SyntaxProtocol` protocol. This protocol defines common attributes
+of nodes in the AST such as child nodes, parent nodes, and more. You can
 generate a syntax node representing the entire source file using the 
 [`SyntaxParser`](https://github.com/apple/swift-syntax/blob/master/Sources/SwiftSyntax/SyntaxParser.swift).
 In the release I used, this is named `SyntaxTreeParser`.
@@ -84,19 +87,21 @@ The default implementation simply visits the node's children recursively. We can
 
 # Example 1 - Rewriting Integer Literals
 
-In this linter inspired example lets clean up the integer literals in our code
-base. Longer integer literals not separated by underscores are hard to read. For
-example, it's much easier to discern the value in
+In this example we're going to clean up the integer literals in our code
+base. Longer integer literals that aren't separated by underscores are hard to read. For
+example, it's much easier to discern the value of `x` written this way:
 ```swift
 let x = 1_000_000_000
 ```
-than it is in
+than it is written this way:
 ```swift
 let x = 1000000000
 ```
 
 We aim to group the digits of large integer literals into
-threes, making them easier to read. A visit to this nice [AST
+threes, making them easier to read.
+
+A visit to this nice [AST
 explorer](https://swift-ast-explorer.kishikawakatsumi.com/) tells us that
 `1000000000` corresponds to an `IntegerLiteralExpr`. After some digging in the
 SwiftSyntax source code I discovered that what we're looking for is a
@@ -109,12 +114,14 @@ Let's create a skeleton of our integer literal rewriter class, overriding
 `visit(_:)` for `TokenSyntax` nodes.
 
 ```swift
-final class IntegerLiteralFormatter: SyntaxRewriter {
+final class IntegerLiteralRewriter: SyntaxRewriter {
   override func visit(_ token: TokenSyntax) -> Syntax {
     return super.visit(token)
   }
 }
 ```
+
+The next step is to implement `visit(_:)`.
 
 ## Filtering for Integer Literal Nodes 
 Let's return early if the TokenSyntax kind is not what we're looking for
@@ -123,13 +130,17 @@ guard case .integerLiteral(let digits) = token.tokenKind else {
   return super.visit(token)
 }
 ```
-A full list of kinds for TokenSyntax is available in the
+A full list of kinds for TokenSyntax nodes is available in the
 [`TokenKind`](https://github.com/apple/swift-syntax/blob/master/Sources/SwiftSyntax/gyb_generated/TokenKind.swift) enum.
 
 ## Reformatting the digits
+Here is my implementation for reformatting the digits. Feel free to write your
+own as an exercise!
+
 There are two steps:
-1. Remove any existing underscores - in case underscores have been used
-   to format the integer literal in a way that is different from ours. For
+1. Remove any existing underscores - this is in case underscores have been used
+   to format the integer literal in a way that is different from our desired
+   format. For
    example, we don't want to deal with a literal like `100_0_0_0`.
 2. Add in the underscores.
 
@@ -151,7 +162,7 @@ integerTextWithUnderscores = String(integerTextWithUnderscores.reversed())
 ```
 
 ## Returning A New TokenSyntax Node
-All Syntax Nodes are structs whose members cannot be modified. Instead we need
+All Syntax Nodes are structs whose members cannot be modified. We need
 to return a copy of the original node with the updated integer literal. We can
 use a `with` API for this.
 
@@ -177,10 +188,10 @@ let z = 987_654_321
 ```
 
 # Example 2 - Converting Snake Case Declarations To Camel Case
-This is another linter inspired example. As Swift programmers, we detest snake
-case. It is anathema to writing beautiful, _swifty_, code ;). We're going to
-write a class to convert any snake case declarations to camel case. Again, let's
-use the [AST explorer](https://swift-ast-explorer.kishikawakatsumi.com/) to
+As Swift programmers we detest snake
+case. It is anathema to writing beautiful, _swifty_ code ;). We're going to
+write a class to convert any snake case declarations to camel case. Again, I
+used the [AST explorer](https://swift-ast-explorer.kishikawakatsumi.com/) to
 determine what types of nodes we need to visit.
 
 Here are the two functions we need to override:
@@ -194,7 +205,7 @@ The first covers expressions like
 ```swift
 let big_snake = small_snake + medium_snake
 ```
-While the second covers function parameters like
+while the second covers function parameters like
 ```swift
 func eatRats(with_snake snake: Snake, some_rats: [Rat]) {}
 ```
@@ -238,8 +249,8 @@ private func convertToCamelCase(_ identifier: String) -> String {
 
 ## Visiting IdentifierExprSyntax Nodes
 This is the easy one. It turns out an `IdentifierExprSyntax` node's identifer is
-a `TokenSyntax` object, so the implementation is very similar to our Integer
-Literal Rewriter.
+a `TokenSyntax` object, so the implementation is very similar to our
+`IntegerLiteralRewriter`.
 ```swift
 override func visit(_ node: IdentifierExprSyntax) -> ExprSyntax {
   guard case .identifier(let identifier) = node.identifier.tokenKind else { return node }
@@ -256,17 +267,21 @@ override func visit(_ node: IdentifierExprSyntax) -> ExprSyntax {
 ## Visiting FunctionParameterSyntax Nodes
 This one is a bit more complicated. We have two cases to deal with:
 1. The function parameter has only a local name - this is the only option in
-   most programming languages: `func eatRats(snake: Snake)`
+   most programming languages: e.g. `func eatRats(snake: Snake)`
 2. The function parameter has an external and local name. If you write Swift
-   code you have seen this before: `func eatRats(withSnake snake: Snake)`
+   code you have seen this before: e.g. `func eatRats(withSnake snake: Snake)`
 
 `FunctionParameterSyntax` nodes have `firstName` and `secondName` properties.
 They are both `TokenSyntax` objects. Interestingly, depending on the case, the
 propery that holds the _local_ parameter name is different.
 
-In the first case the `firstName` property holds the local parameter name and in the second case the `firstName` property holds the external parameter name, whereas the `secondName` property holds the internal parameter name.
+When the parameter only has a local name it's stored in the `firstName`
+property of the node. When the parameter has both the external and local name
+the external name is stored in the `firstName` property and the local name is
+stored in the `secondName` property.
 
-We'll handle each case with a simple if statement
+We'll handle each case separately.
+
 ```swift
 override func visit(_ node: FunctionParameterSyntax) -> Syntax {
   // If both firstName and secondName are non nil then it's a function
@@ -319,8 +334,15 @@ let bigPython = scaryCobra + scaryAnaconda
 Notice how it didn't modify the import. That's as expected because we didn't
 override the `visit(_:)` function for imports!
 
+## The Meta Testcase
+For a more thorough test I rewrote `SnakeCaseRewriter` using snake case
+declarations! After running the snake case version of `SnakeCaseRewriter`
+through `SnakeCaseRewriter`, the output was the original `SnakeCaseRewriter`
+source, as we would expect!
+
+
 # Conclusion
-SwiftSyntax provides a great API for modifying swift source code! All of my
+SwiftSyntax provides a great API for modifying Swift source code! All of my
 examples were linter inspired but if you come up with a creative use for
 SwiftSyntax let me know via email! :)
 
