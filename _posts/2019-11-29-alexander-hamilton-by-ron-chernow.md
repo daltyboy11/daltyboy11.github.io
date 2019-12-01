@@ -17,7 +17,7 @@ written about George Washington, Ulysses Grant, and John D. Rockefeller.
 
 This an excerpt from a
 [letter](https://en.wikisource.org/wiki/Letter_by_Alexander_Hamilton_on_the_hurricane_of_August_1772)
-written by Alexander Hamilton in the aftermath of a devastating hurricating that
+written by Alexander Hamilton in the aftermath of a devastating hurricane that
 hit the caribbean island of Nevis, Hamilton's place of birth, on the night of August 31, 1772. What somber and precocious words for a 15 year old with no formal education...
 
 If you've seen the famous play about his life or read about him you may know he
@@ -34,7 +34,7 @@ perhaps his magnum-opus, the Federalist Papers. James Madison and John Jay were
 also contributors to this herculean effort but it was Hamilton producing the
 bulk of the essays, sometimes publishing multiple essays in a single week. This
 series of essays is perhaps the most persuasive argument in defense of the
-American Constitution ever written. By the year 2000 it had been quotes more
+American Constitution ever written. By the year 2000 it had been quoted more
 than 291 times in Supreme Court opinions, with the frequency of citations rising
 through the years. Theodore Roosevelt has said "_that it is on the whole the
 greatest book dealing with practical politics_". It has clearly stood the test of time.
@@ -85,7 +85,7 @@ a nearly 100 page pamphlet which described the affair in excruciating detail!
 Though the pamphlet vindicated him from the more serious accusations of corruption
 as secretary of the Treasury, which was his primary worry, the damage to his
 reputation (and to his wife's well-being, only God know's the embarrassment she
-fel) went much further than he could have predicted.
+felt) went much further than he could have predicted.
 
 He also published the pamphlet in spite of and against the better judgement of
 his close confidants who were made aware of his intentions.
@@ -93,14 +93,14 @@ his close confidants who were made aware of his intentions.
 This was another fault of his. Once he set his mind on something he would defend
 it ardently and could not possibly be persuaded against it.
 
-### John Adams Pamplet
+### John Adams Pamphlet
 On the 24th of October, 1800, Hamilton published his _Letter from Alexander
 Hamilton, Concerning the Public Conduct and Character of John Adams, Esq.
 President of the United States_. As the title hints, in the letter Hamilton
 denounced many of Adams's policy decisions as well as hit the man with personal
 insults, concluding that Adams was
 
-> emotionally unstable, given to impulsive and irrational decisions, unable to coexist with his closest advisers, and generally unfit to be president
+> emotionally unstable, given to impulsive and irrational decisions, unable to coexist with his closest advisors, and generally unfit to be president
 
 Adams's chances of reelection to the presidency in 1800 were slim, but the
 publication put the last nail in the coffin. It more or less ended Hamilton's
