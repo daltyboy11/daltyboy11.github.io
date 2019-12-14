@@ -14,8 +14,7 @@ about distributed systems and functional programming.
 When I'm not writing code I enjoy reading, lifting weights, and salsa dancing.
 
 ## Books
-Among the books I've read here are the ones I would recommend to anyone
-interested in expanding their knowledge of history, economics, and politics.
+Among the books I've read here are the ones I would recommend.
 
 ### Biography
 - Alexander Hamilton by Ron Chernow
