@@ -8,7 +8,7 @@ My name is Dalton. I'm a senior at the University of Waterloo majoring in
 Software Engineering. I was previously at [Kik](https://www.kik.com/) (iOS),
 [Coursera](https://www.coursera.org/) (Backend), and
 [Splunk](https://www.splunk.com/) (iOS) for internships. I'll be joining
-Coursera as a Software Engineering after I graduate in 2020. I'm passionate
+Coursera as a Software Engineer after I graduate in 2020. I'm passionate
 about distributed systems and functional programming.
 
 When I'm not writing code I enjoy reading, lifting weights, and salsa dancing.
