@@ -14,7 +14,7 @@ word. An example value could be *a privilege, gain, or profit incidental to regu
 
 My fix wasn't difficult, nor was it trivial. The fix is mildly interesting, so
 I'm sharing it here. I also submitted it for a question proposal on
-[leetcode](leetcode.com). This is my fifth question submission so far. I have
+[leetcode](https://leetcode.com). This is my fifth question submission so far. I have
 yet to see any of my problems make it on to the site.
 
 ## Approach
