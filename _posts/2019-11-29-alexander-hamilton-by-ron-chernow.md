@@ -7,7 +7,7 @@ Alexander Hamilton by Ron Chernow is a recent one-volume biography of America's
 most controversial Founding Father. In other bigroaphical works Chernow has
 written about George Washington, Ulysses Grant, and John D. Rockefeller.
 
-> Where now, oh! vile worm, is all they boasted fortitude and resolution? What
+> Where now, oh! vile worm, is all thy boasted fortitude and resolution? What
 > is become of thine arrogance and self sufficiency?... Death comes rushing on
 > in triumph, veiled in a mantle of tenfold darkness. His unrelenting scythe,
 > pointed and ready for the stroke... See thy wretched helpless state and learn
