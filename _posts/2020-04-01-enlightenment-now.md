@@ -15,7 +15,7 @@ the  data on wealth, happiness, alleviation of poverty, and equality paint a ver
 different picture...
 
 # Review
-The popular sentiment of progressophobia in today's influential though circles
+The popular sentiment of progressophobia in today's influential thought circles
 is plain wrong. Progress is a phenomenon
 that erases its tracks, and even its champions focus disproportionately on the
 progress left to accomplish rather than the progress already made.
