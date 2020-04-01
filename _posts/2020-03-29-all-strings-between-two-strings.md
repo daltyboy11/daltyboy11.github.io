@@ -26,7 +26,7 @@ two options for the second character and three options for the third character
 for a total of six possibible strings (_aba, abb, abc, aca, acb, and acc_).
 
 If we let _S_ start with `b` we apply the same reasoning and have another
-six possibilities (_bba, bbb, bba, bca, bcb, and bcc_).
+six possibilities (_bba, bbb, bbc, bca, bcb, and bcc_).
 
 What about _S[0]_ = `c`? We can't apply the same rules we used for the `a` and `b` cases
 because some of the resultings strings may be larger
