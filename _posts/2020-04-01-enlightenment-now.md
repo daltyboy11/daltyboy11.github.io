@@ -68,7 +68,7 @@ flow of people, goods, and services to an incalculable benefit.
 
 Secondly, a country's environmental destruction when plotted against its wealth
 follows a sort of [Kuznet's curve](https://en.wikipedia.org/wiki/Kuznets_curve).
-As a country first to accumulate wealth, pollution and environmental
+As a country begins to accumulate wealth, pollution and environmental
 destruction increases. However, as wealth accumulation continues environmental
 destruction tapers off and begins to decrease!  The important takeaway is that
 as a country gets richer (and more technologically advanced) it pollutes less.
