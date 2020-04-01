@@ -17,7 +17,7 @@ _S1 = aba_, and _S2 = ccb_. We need to find all strings _S_ of
 length _n_ such that _S1 < S_ and _S < S2_. We will analyze _S_ character by
 character.
 
-Pick `a` for _S[0]_. Since _S2[0]_ = `c` and `a` < `c`, any permutation possible
+Pick `a` for _S[0]_. Since _S2[0]_ = `c` and `a` < `c`, any possible
 suffix for _S[1...n]_ will be lexicographically smaller than _S2[1...n]_.
 We just have to make sure that the characters we choose don't make _S_ smaller
 than _S1_ too! How do we ensure this? _S1[1]_ = `b`, so we could pick `b` or `c`
