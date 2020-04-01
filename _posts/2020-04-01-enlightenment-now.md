@@ -74,7 +74,7 @@ destruction tapers off and begins to decrease!  The important takeaway is that
 as a country gets richer (and more technologically advanced) it pollutes less.
 
 **The environmental Kuznets curve**
-![image](../images/environmental_kuznets.png)
+![image]({{site.baseurl}}/images/environmental_kuznets.png)
 *Image Source*: Khajuria, Anupam & Matsui, Takanori & Morioka, Takashi. (2011). Decoupling and Environmental Kuznets Curve for municipal solid waste generation: Evidence from India. Agris On-line Papers in Economics and Informatics. 2. 10.6088/ijes.002020300051.
 
 What is one of the most important enablers of wealth creation today? Technology.
