@@ -117,7 +117,7 @@ Some words I encountered in this book that I didn't know
 - recondite
 - recrudescence
 - saccharine
-- senescene
+- senescence
 - surfeit
 - sybaritic
 - vertiginous
