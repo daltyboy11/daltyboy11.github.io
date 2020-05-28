@@ -57,7 +57,7 @@ Rated **5/5**.
 ## A special note on climate change
 I felt that the enlightment approach to climate change outlined in this book is
 so important that it should be highlighted in its own section. Pinker champions
-an approach to fighting climate changed called _ecomodernism_ or _humanist
+an approach to fighting climate change called _ecomodernism_ or _humanist
 environmentalism_.
 
 Firstly, when it comes to pollution there is a tradeoff between environmental
