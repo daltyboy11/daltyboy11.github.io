@@ -9,8 +9,10 @@ books I've read
 
 ## 2020
 - [The 48 Laws of Power](https://amzn.to/2M90G4M)
+  * Read my [review](https://daltyboy11.github.io/48-laws-of-power/)
 - [How To Lie With Statistics](https://amzn.to/2XI5Aea)
 - [Enlightenment Now: The Case for Reason, Science, Humanism, and Progress](https://amzn.to/3eryG8r)
+  * Read my [review](https://daltyboy11.github.io/enlightenment-now/)
 
 ## 2019
 - [Moonwalking with Einstein: The Art and Science of Remembering Everything](https://amzn.to/3gw6PWq)
@@ -18,6 +20,7 @@ books I've read
 - [Spy the Lie: Three Former CIA Officers Reveal Their Secrets to Uncloaking Deception](https://amzn.to/2AhqI37)
 - [Strenuous Life](https://amzn.to/36ATFDc)
 - [Alexander Hamilton](https://amzn.to/2X8D32k)
+  * Read my [review](https://daltyboy11.github.io/alexander-hamilton-by-ron-chernow/)
 - [The Max Strategy: How A Buisnessman Got Stuck At An Airport...](https://amzn.to/3c8qw3f)
 - [21 Lessons for the 21st Century](https://amzn.to/36KfaRZ)
 - [The Art of Being Unreasonable: Lessons in Unconventional Thinking](https://amzn.to/3gumtSh)
