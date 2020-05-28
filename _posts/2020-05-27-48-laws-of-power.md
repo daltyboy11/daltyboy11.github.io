@@ -3,7 +3,7 @@ layout: post
 title: Thoughts on The 48 Laws of Power
 ---
 
-I just finished reading _The 48 Laws of Power_ by Robert Greene. It's essentially
+I just finished reading [_The 48 Laws of Power_](https://amzn.to/3etuZzi) by Robert Greene. It's essentially
 a modernized and expanded version of Machiavelli's _The Prince_. I wanted to
 read it because I thought it's laws might be useful and applicable in my own
 life, but this wasn't the case.
