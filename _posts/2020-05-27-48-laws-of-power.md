@@ -14,7 +14,7 @@ of deceit and cunning far beyond what most are comfortable or capable of.
 This is fine, of course, if you are operating in the upper echelons of power as
 a military general, politician, business magnate, or the like. But if you don't
 already have vast amounts of wealth or influence advice like _use selective
-honesty and generosity to disarm your victim_ (Law 12), _crush you enemy
+honesty and generosity to disarm your victim_ (Law 12), _crush your enemy
 totally_ (Law 15), and _keep others supsended in terror_ (Law 17) isn't exactly practical.
 
 It's not suprising most of the laws involve violence, deceit, and cunning.
