@@ -8,6 +8,7 @@ I'm an avid reader of non fiction and the occasional novel. Here are some of the
 books I've read
 
 ## 2020
+- [The Mythical Man-Month: Essays on Software Engineering](https://amzn.to/3f0SUX8)
 - [The 48 Laws of Power](https://amzn.to/2M90G4M)
   * Read my [review](https://daltyboy11.github.io/48-laws-of-power/)
 - [How To Lie With Statistics](https://amzn.to/2XI5Aea)
