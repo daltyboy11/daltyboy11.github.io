@@ -40,9 +40,8 @@ If introspection is your thing, this journalling strategy is for you.
 
 ### It puts your journal contents in a safe place.
 Files on your computer or, better yet, uploaded to the cloud, are a more
-permanent place for keeping that precious content. You'll have them forever...
-as long as you can manage to not lose your physical journal in the several
-months before you start uploading!
+permanent place for keeping that precious content. You'll have it forever...
+just don't lose your physical journal before you start uploading!
 
 ## Rinse and repeat
 Find a new notebook and repeat the process. Happy journaling!
