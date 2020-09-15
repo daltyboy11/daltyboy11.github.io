@@ -6,7 +6,7 @@ title: The rate of obsolescence of knowledge in Software Engineering
 A physicist loses half the value of their physics knowledge in just four years whereas
 an English professor would take over 25 years to lose half the value of the
 knowledge they had at the beginning of their career [1]. These estimates are
-taken form a paper written in 1982 so software engineers obviously weren't
+taken from a paper written in 1982 so software engineers obviously weren't
 included. But it begs the question... What would the half-life of the value of a
 software engineer's knowledge be? I suspect it's somewhere between the physicist's
 and the English professor's because a software engineer's knowledge is a combination
