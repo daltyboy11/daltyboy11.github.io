@@ -6,7 +6,7 @@
 name: Dalton Sweeney
 
 # Short bio or description (displayed in the header)
-description: Software Engineer, Blogger, Coffee Drinker
+description: Software Engineer that likes to occasionally read and write - opinions are my own.
 
 #
 # Flags below are optional
@@ -14,15 +14,9 @@ description: Software Engineer, Blogger, Coffee Drinker
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  email: daltyboy11@gmail.com
+  email: dalton.g.sweeney@gmail.com
   github: daltyboy11
   linkedin: dalton-sweeney
-  twitter: DaltonSweeney4
-
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
