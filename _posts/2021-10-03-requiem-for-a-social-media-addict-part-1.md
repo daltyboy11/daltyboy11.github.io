@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Requiem for a social media addict: part 1
+title: Requiem for a social media addict part 1
 ---
 
 It's the middle of the day and I'm trying to solve a hard problem at work. I'm on
