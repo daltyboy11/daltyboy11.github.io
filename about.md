@@ -4,7 +4,6 @@ title: about me
 permalink: /about/
 ---
 
-My name is Dalton. I'm a software engineer at [Coursera](https://www.coursera.org/) and
-graduate of the University of Waterloo's Software Engineering program.
+Software engineer interested in web3 in general and Ethereum in particular. Opinions are my own.
 
 When I'm not writing code I enjoy reading, lifting weights, and salsa dancing.
