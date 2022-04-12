@@ -238,5 +238,6 @@ git clone git@github.com:daltyboy11/MultiSigWallet.git
 git checkout multi-call
 npm install
 npx hardhat clean
+npx hardhat compile
 npx hardhat test
 ```
