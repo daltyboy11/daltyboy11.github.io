@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Challenge: write a basic Patreon clone in Solidity
+title: Write a basic Patreon clone in Solidity
 ---
 
 Inspired by various challenges and tutorials like [ethernauts](https://ethernaut.openzeppelin.com/)
