@@ -3,7 +3,7 @@ layout: post
 title: Every Ethernaut challenge, explained
 ---
 
-The Ethernaut challenges are an **excellent** set of security oriented
+The [Ethernaut challenges](https://ethernaut.openzeppelin.com/) are an **excellent** set of security oriented
 Solidity challenges. I am proud to say I completed these challenges on
 my own over the span of several weeks while I was learning Solidity.
 Sometimes I'd finish multiple problems in a day. Other times I would be
