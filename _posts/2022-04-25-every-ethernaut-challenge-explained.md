@@ -1230,11 +1230,18 @@ If you like this kind of content consider following [me](https://twitter.com/Dal
 
 # Resources
 [1] Receive and Fallback Ether Functions: https://docs.soliditylang.org/en/v0.8.13/contracts.html#receive-ether-function
+
 [2] Function selectors: https://docs.soliditylang.org/en/v0.8.13/abi-spec.html?highlight=function%20signature#function-selector
+
 [3] Solidity's selfdestruct function: https://docs.soliditylang.org/en/v0.8.13/units-and-global-variables.html#contract-related
+
 [4] Ethereum JSON-RPC spec: https://playground.open-rpc.org/?schemaUrl=https://raw.githubusercontent.com/ethereum/eth1.0-apis/assembled-spec/openrpc.json&uiSchema%5BappBar%5D%5Bui:splitView%5D=true&uiSchema%5BappBar%5D%5Bui:input%5D=false&uiSchema%5BappBar%5D%5Bui:examplesDropdown%5D=false
+
 [5] Checks -> Effects -> Interactions pattern: https://fravoll.github.io/solidity-patterns/checks_effects_interactions.html
+
 [6] ERC20 EIP: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md
+
 [7] Layout of State Variables in Storage: https://docs.soliditylang.org/en/v0.8.13/internals/layout_in_storage.html#bytes-and-string
+
 [8] EIP-1967: https://eips.ethereum.org/EIPS/eip-1967
 
