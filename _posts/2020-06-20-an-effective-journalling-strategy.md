@@ -1,14 +1,14 @@
 ---
 layout: post
-title: An effective journalling strategy.
+title: An effective journaling strategy.
 ---
 
-The benefits of journalling are well known. Many try but few make it
+The benefits of journaling are well known. Many try but few make it
 a lasting habit. I'm not going to show you how to stick to consistent
-journalling because there are enough resources on that already. I'm going to
-show you, someone who's already solved the problem of consistent journalling,
-an effective journalling strategy you can use to avoid writing in your journal
-but never _reading your journal_.. Journalling is better when you actually
+journaling because there are enough resources on that already. I'm going to
+show you, someone who's already solved the problem of consistent journaling,
+an effective journaling strategy you can use to avoid writing in your journal
+but never _reading your journal_.. Journaling is better when you actually
 revisit what you write from time to time rather than putting what you write away
 on the shelf, collecting dust forever and ever.
 
@@ -36,7 +36,7 @@ It's nice to compare how you acted/reacted to something back then with limited
 information, with how you would have acted/reacted to the same thing now
 given the knowledge you have from the consequences of that action.
 
-If introspection is your thing, this journalling strategy is for you.
+If introspection is your thing, this journaling strategy is for you.
 
 ### It puts your journal contents in a safe place.
 Files on your computer or, better yet, uploaded to the cloud, are a more
