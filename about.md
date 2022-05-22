@@ -4,6 +4,5 @@ title: about me
 permalink: /about/
 ---
 
-Software engineer interested in web3 in general and Ethereum in particular. Opinions are my own.
-
-When I'm not writing code I enjoy reading, lifting weights, and salsa dancing.
+Software engineer interested in web3 in general and Ethereum in particular.
+Engineer at [Goldfinch](goldfinch.finance) Opinions are my own.
