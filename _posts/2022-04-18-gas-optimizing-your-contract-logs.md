@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gas optimizing Solidity events with the log0 opcode
+title: Silly gas optimizations Part 1 - Logging with the log0
 ---
 
 _Warning: this is likely an incredibly stupid idea and not valid for the vast majority of use cases :P.
