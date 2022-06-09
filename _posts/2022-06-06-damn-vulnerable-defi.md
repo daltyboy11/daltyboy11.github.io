@@ -11,3 +11,4 @@ Spend at least a few hours hacking on the problems yourself before checking solu
 you're still stuck (like I was on the 12th problem), take a look at the list below.
 
 1. [Unstoppable](https://daltyboy11.github.io/damn-vulnerable-defi-unstoppable/)
+2. [Naive receiver](https://daltyboy11.github.io/damn-vulnerable-defi-naive-receiver/)
