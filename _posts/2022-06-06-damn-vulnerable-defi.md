@@ -12,3 +12,4 @@ you're still stuck (like I was on the 12th problem), take a look at the list bel
 
 1. [Unstoppable](https://daltyboy11.github.io/damn-vulnerable-defi-unstoppable/)
 2. [Naive receiver](https://daltyboy11.github.io/damn-vulnerable-defi-naive-receiver/)
+3. [Truster](https://daltyboy11.github.io/damn-vulnerable-defi-truster/)
