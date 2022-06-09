@@ -44,7 +44,7 @@ contract SideEntranceAttack is IFlashLoanEtherReceiver {
 ```
 
 ## Patched Contract
-This is a classic reentrancy attack, and we can fix it by making `deposit` and `flashLoan`
+This is a classic reentrancy attack and we can fix it by making `deposit` and `flashLoan`
 non-reentrant. Heck, we'll throw the modifier on `withdraw` too just for safe measure!
 
 ```
