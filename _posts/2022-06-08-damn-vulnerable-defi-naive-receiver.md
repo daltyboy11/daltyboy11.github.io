@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Damn Vulnerable DeFi - Naive Receiver
+title: Damn Vulnerable DeFi - Naive receiver
 ---
 
 ## Description
