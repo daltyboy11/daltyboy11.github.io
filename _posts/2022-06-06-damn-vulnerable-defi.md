@@ -17,3 +17,4 @@ you're still stuck (like I was on the 12th problem), take a look at the list bel
 5. [Rewarder](https://daltyboy11.github.io/damn-vulnerable-defi-rewarder/)
 6. [Selfie](https://daltyboy11.github.io/damn-vulnerable-defi-selfie/)
 7. [Compromised](https://daltyboy11.github.io/damn-vulnerable-defi-compromised/)
+8. [Puppet](https://daltyboy11.github.io/damn-vulnerable-defi-puppet/)
