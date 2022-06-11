@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Damn Vulnerable DeFi - Selfie
+title: Damn Vulnerable DeFi - Compromised
 ---
 
 ## Description

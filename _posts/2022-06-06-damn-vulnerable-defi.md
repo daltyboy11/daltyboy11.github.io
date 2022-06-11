@@ -13,3 +13,7 @@ you're still stuck (like I was on the 12th problem), take a look at the list bel
 1. [Unstoppable](https://daltyboy11.github.io/damn-vulnerable-defi-unstoppable/)
 2. [Naive receiver](https://daltyboy11.github.io/damn-vulnerable-defi-naive-receiver/)
 3. [Truster](https://daltyboy11.github.io/damn-vulnerable-defi-truster/)
+4. [Side entrance](https://daltyboy11.github.io/damn-vulnerable-defi-side-entrance/)
+5. [Rewarder](https://daltyboy11.github.io/damn-vulnerable-defi-rewarder/)
+6. [Selfie](https://daltyboy11.github.io/damn-vulnerable-defi-selfie/)
+7. [Compromised](https://daltyboy11.github.io/damn-vulnerable-defi-compromised/)
