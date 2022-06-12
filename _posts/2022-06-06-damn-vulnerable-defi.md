@@ -19,3 +19,4 @@ you're still stuck (like I was on the 12th problem), take a look at the list bel
 7. [Compromised](https://daltyboy11.github.io/damn-vulnerable-defi-compromised/)
 8. [Puppet](https://daltyboy11.github.io/damn-vulnerable-defi-puppet/)
 9. [Puppet v2](https://daltyboy11.github.io/damn-vulnerable-defi-puppet-v2/)
+10. [Free rider](https://daltyboy11.github.io/damn-vulnerable-defi-free-rider/)
