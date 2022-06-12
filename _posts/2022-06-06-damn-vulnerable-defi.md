@@ -21,3 +21,4 @@ you're still stuck (like I was on the 12th problem), take a look at the list bel
 9. [Puppet v2](https://daltyboy11.github.io/damn-vulnerable-defi-puppet-v2/)
 10. [Free rider](https://daltyboy11.github.io/damn-vulnerable-defi-free-rider/)
 11. [Backdoor](https://daltyboy11.github.io/damn-vulnerable-defi-backdoor/)
+12. Climber - I wasn't able to solve this one on my own. Instead, here's a [link](https://medium.com/@balag3/damn-vulnerable-defi-walkthrough-part-two-challenge-7-12-a64c42c82c5b) to an explanation of the exploit that helped me when I got stuck. Shoutout to Balázs Kocsis for the great explanation.
