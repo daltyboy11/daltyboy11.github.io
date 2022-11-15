@@ -15,16 +15,16 @@ NFT was stolen there are still several useful actions you can take
 * Track the movement of the NFT and the hacker's wallet to potentially **buy back the NFT**
 * **Blacklist the NFT** if the NFT gives the holder governance power on a protocol
 
-We used Dune's new API to query for suspicious on-chain activity. If we detected supsicious activity then we would send a text message and
+We used Dune's new API to query for suspicious on-chain activity. If we detected suspicious activity then we would send a text message and
 discord server alert with a link to the suspicious transaction on etherscan/polygonscan.
 
 ## Reflections
 
-### I overestimated how impressive our project was
+### Projects were extremely impressive
 I felt great about our project when we submitted on Sunday morning. In only 48 hours we hacked together a working MVP and live demo (no
 demo faking bs ;)). I thought we would have a shot at becoming a finalist or winning the Dune sponsor prize and was bummed when we weren't selected..
 until that afternoon when I saw the finalist demoes. They had clearly put a lot more effort into their projects. For some finalists it was clear
-their project wasn't something they scrapped together in 48 hours like us, but rather a startup or project they were extremely serious about
+their project wasn't something they scraped together in 48 hours like us, but rather a startup or project they were extremely serious about
 continuing, and they demoed it in order to attract investors and/or new team members. A friend I met there informed me this is pretty common. Many
 such cases...
 
@@ -40,7 +40,7 @@ Even if you don't care about winning a prize for your hack, I recommend attendin
 ### It takes a toll on your body
 I'm still relatively young but must admit I was exhausted after the hackathon. I was lucky enough to live in the same city the hackathon took place in
 and could return to my bed each night. But plenty of hackers came from out of town and either slept at the venue or didn't sleep at all, and I feel for
-them. That's really hard and props for hacking away under those conditions. I likely won't do another hackathon for a **long** time due to this.
+them. That's really hard and props for hacking away under those conditions. I likely won't do another hackathon for a **long** time for this reason.
 
 ## Thank you to the ETHGlobal team
 I'll end by thanking the ETHGlobal team for organizing an incredible event. That's no small feat! Speaking for myself, it was an awesome experience I
