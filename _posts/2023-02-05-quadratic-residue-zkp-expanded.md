@@ -41,7 +41,7 @@ how the protocol works:
 2. $V$ sends one bit $b$ back to $P$, and flips a coin to
 determine its value. If the coin lands heads then $b=1$. If the coin lands tails then $b=0$.
 3. $P$ receives $b$. If $b$ is 1 then it sends $z=r*x$ to $V$. If $b=0$ then it sends $z=r$ to $V$ (this is the opposite of what you see in the slides because the slides have a typo).
-4. $V$ receives $z$ and computes the expected value of $z^2$ using its knowledge of $s$ and $b$. If $b=1$ then the expected value for $z^2$ is $(r*x)^2 =r^2 * x^2 = s * y$. If $b=0$ then the expected value of $z^2$ is $(r)^2 = r^2$.
+4. $V$ receives $z$ and computes the expected value of $z^2$ using its knowledge of $s$ and $b$. If $b=1$ then the expected value for $z^2$ is $(r*x)^2 = r^2 * x^2 = s * y$. If $b=0$ then the expected value of $z^2$ is $(r)^2 = r^2$.
 5. $V$ rejects the proof if $z^2$ doesn't match the expected value. If $z^2$ matches the expected value then $V$ either accepts the proof if it has been sufficiently convinced, or continues for more interations to increase its confidence in the proof.
 
 ## What if $P$ doesn't know the secret?
@@ -53,8 +53,8 @@ Here's how $P$ might convince $V$ in the $b=1$ case without actually knowing $x$
 2. $V$ sends $b=1$ to $P$
 3. $P$ sends $z=r$ to $V$.
 4. $V$ checks the expected value of $z^2$ against its actual value.
-   The expected value is $$z^2=s*y=\frac{r^2}{y}*y=r^2$$
-   And actual value is $z^2=(r)^2=r^2$. The actual value matches the expected value, so $V$ is convinced.
+   The expected value is $z^2=s*y=y*\frac{r^2}{y}=r^2$
+   and the actual value is $z^2=(r)^2=r^2$. The actual value matches the expected value, so $V$ is convinced.
 
 What if $P$ guessed wrong and sent $s=\frac{r^2}{y}$ to $V$, but $V$ sent $b=0$ back? $P$ could send $z = r$ to $V$, but then $V$ would compute the expected value as $z^2 = s = \frac{r^2}{y}$ and the actual value sent by $P$ would be $z^2 = (r)^2 = r^2$, a mismatch! In fact, the only way $P$
 could rectify the situation is if it actually knew $x$ and sent $z = \frac{r}{\sqrt{y}} = \frac{r}{x}$ to $V$.
