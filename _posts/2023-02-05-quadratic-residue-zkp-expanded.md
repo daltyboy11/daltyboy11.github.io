@@ -28,7 +28,7 @@ Here's my general description that I'm going to apply to the quadratic residue p
 > The tasks are chosen such that if the claim is true (i.e. $P$ knows the secret), then $P$ can always perform both $A$ and $B$ correctly. But if the claim is false (i.e. $P$ doesn't know the secret), then at best $P$ can only "fake" one of the tasks at the risk of not being able to perform the other.
 > 
 > If $V$ picks the task at random, then a $P$ who doesn't know the secret has a 50% chance
-of faking the wrong task, and therefore being unable to perform the task chosen by $V. After successive iterations the likelihood that $P$ doesn't know the secret and correctly guesses which task to "fake" becomes increasingly small. After $n$ iterations, the likelihood that a $P$ who doesn't know the secret guessed was able to guess the right task to fake $n$ times in a row is $\frac{1}{2^n}$.
+of faking the wrong task, and therefore being unable to perform the task chosen by $V$. After successive iterations the likelihood that $P$ doesn't know the secret and correctly guesses which task to "fake" becomes increasingly small. After $n$ iterations, the likelihood that a $P$ who doesn't know the secret guessed was able to guess the right task to fake $n$ times in a row is $\frac{1}{2^n}$.
 >
 > As the likelihood that $P$ doesn't know the secret decreases exponentially as $n$ increases, $V$ can be convinced that $P$ does in fact know the secret for sufficient $n$.
 
@@ -51,8 +51,8 @@ Let's look at a scenario where $P$ **does not know** $x$ but tries to fake it.
 Here's how $P$ might convince $V$ in the $b=1$ case without actually knowing $x$.
 1. $P$ generates a random $r$, but instead of sending $s=r^2$ to $V$, it sends $s=\frac{r^2}{y}$
 2. $V$ sends $b=1$ to $P$
-3. $P$ sends $z = r$ to $V$.
-4. $V$ checks the expected value of $z^2$ against its actual value. The expected value is $z^2 = s*y = \frac{r^2}{y}*y =r^2$. The actual value is $z^2 = (r)^2 = r^2$. The actual value matches the expected value, so $V$ is convinced.
+3. $P$ sends $z=r$ to $V$.
+4. $V$ checks the expected value of $z^2$ against its actual value. The expected value is $z^2=s*y=\frac{r^2}{y}*y=r^2$. The actual value is $z^2=(r)^2=r^2$. The actual value matches the expected value, so $V$ is convinced.
 
 What if $P$ guessed wrong and sent $s=\frac{r^2}{y}$ to $V$, but $V$ sent $b=0$ back? $P$ could send $z = r$ to $V$, but then $V$ would compute the expected value as $z^2 = s = \frac{r^2}{y}$ and the actual value sent by $P$ would be $z^2 = (r)^2 = r^2$, a mismatch! In fact, the only way $P$
 could rectify the situation is if it actually knew $x$ and sent $z = \frac{r}{\sqrt{y}} = \frac{r}{x}$ to $V$.
