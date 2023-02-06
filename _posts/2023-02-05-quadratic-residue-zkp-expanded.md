@@ -5,6 +5,8 @@ title: (zk-learning) elaboration on the quadratic residue ZKP
 
 # Introduction
 
+$$x$$
+
 I just finished the first lecture of the [Zero Knowledge Proofs MOOC](https://zk-learning.org/) titled _Introduction and History of ZKP_.
 The lecture described an interactive zero knowledge protocol to prove a number is a [quadratic residue](https://en.wikipedia.org/wiki/Quadratic_residue) $mod \> N$. In other words,
 a prover $P$ wants to convince a verifier $V$ that it knows $x$ such that $y = x^2 \> mod \> N$, _without revealing_ $x$ to $V$. The variables $(y, N)$ are known to $P$ and $V$, but $x$ is only known to $P$.
