@@ -53,7 +53,7 @@ Here's how $P$ might convince $V$ in the $b=1$ case without actually knowing $x$
 2. $V$ sends $b=1$ to $P$
 3. $P$ sends $z=r$ to $V$.
 4. $V$ checks the expected value of $z^2$ against its actual value. The expected value for $z^2$ is
-    $$s*y=y*\frac{r^2}{y}=r^2$$
+    $$s*y=y*r^2/y=r^2$$
    and the actual value for $z^2$ is $(r)^2=r^2$. The actual value matches the expected value, so $V$ is convinced.
 
 What if $P$ guessed wrong and sent $s=\frac{r^2}{y}$ to $V$, but $V$ sent $b=0$ back? $P$ could send $z = r$ to $V$, but then $V$ would compute the expected value as $z^2 = s = \frac{r^2}{y}$ and the actual value sent by $P$ would be $z^2 = (r)^2 = r^2$, a mismatch! In fact, the only way $P$
