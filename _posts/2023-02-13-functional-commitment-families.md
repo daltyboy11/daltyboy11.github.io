@@ -14,7 +14,7 @@ for building SNARKs
 3. A vector $\vec{u}$ of size $d$ such that we can open the committed vector at element $u_i$.
 4. An inner products  on vector $\vec{u}$ of size $d$ such that we can open the committed vector at the inner product of $\vec{u}$ and an input vector $\vec{v}$.
 
-![Function Families](../images/functional-commitments.png)
+![Function Families]({{site.baseurl}}/images/functional-commitments.png)
 
 He mentions in passing that any one of these four function families can be built from any of the other four, but leaves it at that. I was left wondering... how?
 
