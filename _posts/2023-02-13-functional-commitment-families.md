@@ -84,9 +84,9 @@ $$
 For input $i$ to $f_{\vec{u}}$, we evaulate $F(X)$ such that $x_i = 1$ and $x_j = 0, j \neq i$ for every element in $X$.
 
 I.e.
+
 $$
-f_{\vec{u}}(i) = u_i \\
-F(X) = u_1x_1 + ... + u_dx_d = (0)u_1 + ... + (1)u_i + ... + (0)u_d = u_i
+F(X) = u_1x_1 + ... + u_dx_d = 0u_1 + ... + 1u_i + ... + 0u_d = u_i
 $$
 
 Thus, committing to
