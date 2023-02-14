@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (zk-learning) elaboration on the quadratic residue ZKP
+title: (zk-learning) Deriving functional commitment families
 ---
 
 # Introduction
