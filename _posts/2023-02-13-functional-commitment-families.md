@@ -119,7 +119,7 @@ $$
 F(\vec{v}) = u_1v_1 + ... + u_dv_d = \vec{u}\cdot\vec{v}
 $$
 
-Thus, committing to $$F(X) = \sum_{i=1}^{d}{u_ix_i}$$
+Thus, committing to $F(X) = \sum_{i=1}^{d}{u_ix_i}$
 
 and opening it at
 
