@@ -392,8 +392,16 @@ And now we've implemented all of the constraints. You can try running `make` and
 the pipeline runs to completion :)
 
 # Conclusion
+
+## The limitations of using an HDL
 Finishing the Sudoku circuit was straightforward, but we saw in the 3-Coloring circuit how we
 had to cleverly work around the limitations of Circom. Not being able to use basic PL primitives
 like if statements is one of the big drawbacks of using an HDL. As we progress through the course
 I imagine we'll learn to work with libraries at a higher abstraction level. That said, it's good
 to understand what's going on under the hood. Plus, manually wiring up the circuits can be fun ;).
+
+## Moving away from toy examples
+Althought more complex than the Sudoku circuit, the 3-Coloring circuit is still nothing more than 
+a pedagogical exercise. I'm really curious to see who's using Circom in production applications,
+and to what level of sophistication in applications is possible. I would guess that [iden3](https://iden3.io/)
+(the company who built Circom) is using it. Are there others?
