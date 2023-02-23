@@ -11,7 +11,7 @@ In the tutorial we wrote a circuit for proving knowledge of a solution to a Sudo
 In this post I'll show you the finished circuit and also a brand new circuit for proving knowledge of a graph 3-coloring. In the 3-coloring circuit, we'll make use of some of the many helpful circuits available in the [circomlib repository](https://github.com/iden3/circomlib).
 
 For the rest of this post I'll assume you have implemented the circuit
-from the tutorial, or have prior knowledge of Circome. You can find all the code from this post [here](https://github.com/daltyboy11/zk-learning-circom).
+from the tutorial, or have prior knowledge of Circom. You can find all the code from this post [here](https://github.com/daltyboy11/zk-learning-circom).
 
 # Finishing the Sudoku circuit
 When the tutorial ended we had these constraints on the Sudoku solution:
@@ -26,12 +26,9 @@ current circuit?
 
 <details>
 <summary>Answer</summary>
-<pre>
 Swap the first and last elements of the first row in `sudoku.input.json`
 and run `make` you'll see.
-</pre>
 </details>
-</br>
 
 It's missing two important constraints
 
