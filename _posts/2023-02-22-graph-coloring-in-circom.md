@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (zk-learning) Building R1CS circuits with Circom
+title: (zk-learning) Building a Graph 3-Coloring R1CS circuit in Circom
 ---
 
 # Introduction
