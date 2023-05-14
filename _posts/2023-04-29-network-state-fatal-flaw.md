@@ -1,108 +1,31 @@
 ---
 layout: post
-title: The fatal flaw in establishing a network state
+title: Network States and the Radical Premise Problem
 ---
 
-# Draft 1
+In his recent book [_The Network State_](https://thenetworkstate.com/), tech entrepreneur Balaji Srinivasan presents a thought-provoking vision for the future of societal organization: the _Network State_. The network state is a "highly aligned online community with a capacity for collective action that crowdfunds territory around the world and eventually gains diplomatic recognition from pre-existing states".
 
-Last year, renowned (and controversial) tech entrepreneur Balaji Srinivasan published
-[_The Network State_](https://thenetworkstate.com/), a book on how to build its namesake,
-what he describes as _"the successor to the nation state"_. What's a Network State?
-I'll repeat the [definition in one sentence](https://thenetworkstate.com/the-network-state-in-one-sentence) here.
+Yet, despite its allure in our increasingly digital and divided world,
+the idea of a network state as proposed faces a critical problem: the founding premise, what he calls the [One Commandment](https://thenetworkstate.com/the-one-commandment), must be radical enough to compel its members to seek sovereignty but must also be acceptable enough to gain recognition from existing nations. This, I argue, is the fatal flaw in the approach.
 
-> A network state is a highly aligned online community with a capacity for collective action that crowdfunds territory around the world and eventually gains diplomatic recognition from pre-existing states.
+## The Radical Premise Problem
+The crux lies in the contradiction inherent in the network state's founding premise. It must be radically different from society's prevailing norms to compel the formation of a new sovereignty, otherwise its members would be content to practice it within the existing social framework. Yet, the very radical nature of the premise, which propels its formation, can act as a barrier to its acceptance by existing nation states. This is particularly true due to the geographical distribution, or "networkness", of the network state.
 
-After explaining why the death of the nation state is inevitable, he breaks down the process
-of establishing a network state into three steps:
+For a network state to succeed, its radical premise must be both compelling to its members and palatable to existing societies. Yet, the more radical the premise, the less likely it is to be tolerated by those societies, especially if the network state exists within their geographical boundaries. The "out of sight, out of mind" principle applies here; a radically different way of life from yours is more likely to be tolerated if it occurs far away from you.
 
-1. Found a Network Union
-2. Grow it into a Network Archipelago
-3. Leverage your Network Archipelago's human and physical capital to gain diplomatic recongition, thus establishing your Network State
+Consider two examples societies from Srinivasan's book, the Keto Kosher Society and the Post FDA Society.
 
-I believe this process is doomed to fail because nation states have no incentives to
-recognize the sovereignty of the so called Network Archipelago, and strong incentives
-to keep the Network Archipelago within its jurisdiction. To understand my position we'll
-have to get a better understanding of what the Network Archipelago is and think through
-how why a transition from that to a Network State would be infeasible.
+The Keto Kosher Society, which rejects the consumption of sugar, may not be radical enough to drive its members to seek sovereignty. It's a lifestyle choice that could, in theory, be practiced within the existing societal framework. To Balaji's credit, a later section of the book points out that the Keto Kosher society may happily exist as a Network Archipelago without ever wanting to become a state.
 
-## Characteristics of a Network Archipelago
-Balaji leaves out the details of the transition from an Archipelago to a State. It is
-implied that "when an Archipelago is powerful enough" then it will happen:
+On the other hand, the Post FDA Society, which advocates for medical sovereignty and an FDA-free zone, presents a more radical premise. It proposes a significant departure from prevailing medical regulations, which would likely necessitate the establishment of a new sovereignty to fully realize its objectives.
 
-> Turning that network union into a network archipelago manifests that collective action in the real world, as the community crowdfunds physical properties around the world and connects them via the internet. Finally, an impressive enough network archipelago can achieve diplomatic recognition from an existing government, thereby becoming a true network state.
+The radicalness of the Post FDA Society would make it difficult to accept, particularly if it were
+to coexist within the geographical boundaries of existing states. Unfettered human biological experimentation is not something a lot of people would want to see their nextdoor neighbor doing.
+Then, would the Post FDA society's request for sovereignty be more palatable to existing states if
+they had experimentation labs and Post FDA communities scattered across countires and geographies, or by having all its physical property and activities concentrated in a single place?
 
-If we think through how that last part might actually play out, we'll find that existing
-nation states don't have a good reason to support such a transition.
-
-But before we can think through that scearnio, we must understand the characteristics of
-a Network Archipelago.
-
-### A moral premise that unites its members
-A Network Archipelago, and its precursor the Network Union, are formed from a shared moral
-premise called the [_One Commandment_](https://thenetworkstate.com/the-one-commandment). To
-give you a more concrete idea, here are example commandments from the book and excerpts on
-how groups might form an Archipelago around them:
-
-- The Keto Kosher Society, a society that rejects the consumption of sugar
-  > Organize a community online that crowdfunds properties around the world, like apartment buildings and gyms, and perhaps eventually even culdesacs and small towns. You might take an extreme sugar teetotaller approach, literally banning processed foods and sugar at the border, thereby implementing a kind of “Keto Kosher.”
-
-- The Digital Sabbath Society
-  > ...One way of accomplishing this would be a Digital Sabbath society where the internet is just shut off at night, from 9pm to 9am. Some buildings and rooms would furthermore be enclosed in Faraday cages, to put them offline on purpose. Areas would start to be flagged as online and offline areas, a bit like smoking and non-smoking areas on planes. All internet use would be conscious and focused, as opposed to unconscious and involuntary.
-
-### A geographically dispersed physical footprint
-As the name _Archipelago_ suggests, the members and physical capital of the network are all
-over the place. It might be a handful of apartments spread across a city, accessible if you
-demonstrate cryptographic proof of your membership. This handful of apartments would grow
-as the network grows. Perhaps it expands to larger residential and commercial real-estate
-holdings in other cities, states, or even countries.
-
-# Why the transition from Archipelago to State fails
-
-## A network archipelago as a parallel society **does** not catalyze peaceful reform
-Balaji likens the network archipelago to the concept of a _parallel society_, and then
-uses the [example](https://thenetworkstate.com/the-one-commandment#parallel-systems-catalyze-peaceful-reform) of the United States as a parallel society to the USSR to argue that
-peaceful reform happens when a parallel societ is established. Finally, he argues that
-a parallel society no longer has to be a contiguous piece of land, but that networks
-can also form parallel societies.
-
-In his short blurb about the US and USSR, part of a section titled _Parallel Systems Catalyze 
-Peaceful Reform_, the part where the US and USSR coexisting as parallel systems led to any
-peaceful reform is completely absent. Last time I checked, the reform/collapse of the USSR
-was [anything but peaceful](https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union#Consequences).
-
-The US and USSR were built on fundamentally different views of society - the former based on
-capitalism and the latter based on socialism. Two incomptaible views that could not possibly
-operate or be "exprimented on" at a large scale within close proximity to each other.
-
-Recognizing the incompatibility of those views, and their inability to operate near each other
-leads us to the fatal flaw of the network archipelago.
-
-
-# Draft 2
-A group of individuals who want to establish a new sovereignty for themselves will base their society on a moral
-premise radically different from existing society. If it wasn't radically different, then there would be no need
-for sovereignty. They could simply be an online-first community with a physical presence within existing society.
-
-But if this group's moral premise is sufficiently radical that they feel compelled to establish a new sovereignty,
-then an archipelago of physical property would be inferior to a contiguous piece of land to esablish their sovereignty.
-
-Why? Because their moral premise is so radically different that most of the surrounding society will strongly
-disagree with it, maybe even detest it. And if you're detested by those around you, there's no chance they would let
-you operate your radically different society in such close proximity to them.
-
-Secondary reasons why a nation state wouldn't recognize properties of a network archipelago within its jurisdiction
-as their own sovereignty:
-- The logistical implications of small pieces of land within your jurisdiction being part of a different sovereignty
-    - To take the example of the network archipelago as a collection of apartments in a city...
-        - Do you need passport controls whenever you enter/exit the apartment?
-- The loss of the tax base?
-    - If the network archipelago is strong, then I, as the country that hosts some or all of it, want to benefit
-      from its economic activity. I.e. collecting taxes on its economic activity. Why would I give up such a
-      juicy tax base by recongizing its sovereignty? Balaji says these archipelagos will use cryptocurrencies to
-      operate outside the current system. But existing countries have had no problems taxing cryptoeconomic activity
-      so far. And they can always bring men with guns to your door.
-- Status of the sovereignty of the parts of your network Archipelago that don't exist within the recognizer's jurisdiction?
-    - If your archipelago owns property in El Salvador and the US, El Salvador may recognize the sovereignty of your properties in El Salvador, but it sure as hell won't recognize the sovereignty of your properties in the United States.
-- It takes more than a single bootstrapper. You need more. Why? If El Salvador recognizes your sovereignty within its borders,
-  it may treat you differently, but other countires won't. Doing business with the US? You're just another business operating
-  out of El Salvador. You're not a new sovereignty to them.
+## Is there a way out?
+I think new states will come to be recognized, but not as networks. While they will have a network
+component, with people and property outside its sovereignty, the sovereignty itself will remain a
+contiguous physical landmass. The Vatican is sovereign. But when you walk in to the [Notre-Dame de Paris](https://en.wikipedia.org/wiki/Notre-Dame_de_Paris)
+you're not walking into Vatican territory, although the Vatican still exerts supreme influence over it. 
