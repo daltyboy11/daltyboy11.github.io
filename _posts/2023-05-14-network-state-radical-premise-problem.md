@@ -32,3 +32,5 @@ contiguous physical landmass. The Vatican is sovereign. But when you walk in to 
 you're not walking into Vatican territory, although the Vatican still exerts supreme influence over it. 
 
 I believe new states will come to be recognized, but not as networks. While a new state will have a network component, with people and property outside its sovereignty, the sovereignty itself will remain a contiguous physical landmass. The Vatican is sovereign, and it (the Pope) exerts supreme authority over the Catholic churches of the world. But when you walk into the Notre-Dame de Paris in France, you don't need to pull out your passport and cross into Vatican territory.
+
+_I wrote this blog post in conversation with a LLM. You may view the full conversation [here](https://sharegpt.com/c/qIlZe3u)_
