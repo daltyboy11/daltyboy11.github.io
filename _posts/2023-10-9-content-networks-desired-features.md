@@ -17,7 +17,7 @@ Yet, the ecosystem is far from mature. Challenges like spam highlight its infanc
 
 ![Converse Spam]({{site.baseurl}}/images/converse-spam.PNG)
 
-I suspect XMTP isn't alone in this struggle. Reflecting on these challenges, here's a wishlist for p2p content networks:
+I suspect this problem isn't unique to XMTP. Reflecting on these challenges, here's a wishlist for p2p content networks:
 
 1. **Anti-spam Filters**: As we just saw, users will quickly give up if they are bombarded with a dozen spam messages for every real one.
 2. **Content Authenticity Verification**: With advancements in generative AI, discerning real from fake/generated content is increasingly difficult. In a network championing free speech and resistant to censorship, mechanisms to verify content authenticity are critical.
