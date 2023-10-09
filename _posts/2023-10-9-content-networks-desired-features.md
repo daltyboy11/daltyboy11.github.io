@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Missing features in P2P Content Networks
+title: Desired features in P2P Content Networks
 ---
 
 A few weeks ago, my curiosity was piqued by [XMTP](https://xmtp.org/), a peer-to-peer (p2p) messaging protocol. For fun, I developed two self-contained web apps: [zodiacdaily.xyz](https://zodiacdaily.xyz/) and [onchainfacts.xyz](https://onchainfacts.xyz/). The concept behind these apps is straightforward: send a small amount of USDC and receive a horoscope or three fun facts in return. Feel free to try them out.
