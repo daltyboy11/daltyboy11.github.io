@@ -31,7 +31,7 @@ There are several ways I could improve EasyBridge. Some ideas are:
 
 - **Swaps**.
 
-    Imagine if instead of bridging USDC ==> USDC, you could bridge any ERC20 to _any other_ ERC20? This is possible as long as the ERC20s have good ERC20 <==> USDC liquidity on the source and destination chains. Let's say I wanted to swap `$GFI` on mainnet to \$DEGEN on Base. EasyBridge could intelligently swap \$GFI ==> USDC on mainnet using Uniswap, deposit the USDC into the bridge, and then swap USDC ==> \$DEGEN on Base using BaseSwap. This improvement would promote EasyBridge to a fully fledged bridge, without _any additional infrastructure_ 🤯.
+    Imagine if instead of bridging USDC ==> USDC, you could bridge any ERC20 to _any other_ ERC20? This is possible as long as the ERC20s have good ERC20 <==> USDC liquidity on the source and destination chains. Let's say I wanted to swap `$GFI` on mainnet to `$DEGEN` on Base. EasyBridge could intelligently swap `$GFI` ==> `USDC` on mainnet using Uniswap, deposit the USDC into the bridge, and then swap `USDC` ==> `$DEGEN` on Base using BaseSwap. This improvement would promote EasyBridge to a fully fledged bridge, without _any additional infrastructure_ 🤯.
 
 ### EasyBridge's hidden feature
 EasyBridge isn't only great for moving USDC across chains. You can also use it to avoid the long wait times for moving your ETH from an L2 back to mainnet. On Optimism, it takes 7 days to move your ETH back to mainnet because you have to wait for the fraud proof window to close. The same wait time applies to Arbitrum and Base. With EasyBridge, **you can do this in 20 minutes**! That's a 500-fold decrease in time.
