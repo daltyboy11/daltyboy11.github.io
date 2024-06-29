@@ -21,9 +21,7 @@ Your alarm starts ringing at the times you specify, delivering you and uplifting
 
 And that's it! Simple, yet powerful. If you're a user of the app, and have feedback or need help, please [reach out](mailto:dalton.g.sweeney@gmail.com).
 
-# App Privacy Policy
-
-### Privacy Policy for Top G Alarm
+<h1 id="privacy-policy-for-alarm-clock-app">Privacy Policy for Top G Alarm</h1>
 
 **Effective Date: June 28 2024**
 
