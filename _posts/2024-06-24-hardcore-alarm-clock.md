@@ -21,11 +21,11 @@ Your alarm starts ringing at the times you specify, delivering you and uplifting
 
 And that's it! Simple, yet powerful. If you're a user of the app, and have feedback or need help, please [reach out](mailto:dalton.g.sweeney@gmail.com).
 
-<h1 id="privacy-policy-for-alarm-clock-app">Privacy Policy for Top G Alarm</h1>
+<h1 id="privacy-policy-for-alarm-clock-app">Privacy Policy for Grindset Alarm</h1>
 
 **Effective Date: June 28 2024**
 
-Your privacy is important to us. This privacy policy explains how Top G Alarm ("the App") handles your personal information.
+Your privacy is important to us. This privacy policy explains how Grindset Alarm ("the App") handles your personal information.
 
 **1. Information Collection**
 
@@ -51,4 +51,4 @@ We may update our privacy policy from time to time. We will notify you of any ch
 
 If you have any questions about this privacy policy, please [contact us](mailto:dalton.g.sweeney@gmail.com).
 
-Thank you for using Top G Alarm
+Thank you for using Grindest Alarm. 
