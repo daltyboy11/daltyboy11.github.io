@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reflections on DALLE-3: using it to generate art for Edgar Allan Poe's short stories
+title: Reflections on DALLE-3, and using it to generate art for Edgar Allan Poe's short stories
 ---
 
 WIP
