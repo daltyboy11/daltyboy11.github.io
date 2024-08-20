@@ -3,8 +3,6 @@ layout: post
 title: Reflections on DALLE-3, and using it to generate art for Edgar Allan Poe's short stories
 ---
 
-WIP
-
 I'm a longtime chatgpt user but a very recent user of its image generation capabilities ([DALLE-3](https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise/)).
 
 I generated over 100 images in the last two weeks for an upcoming NFT collection. It was a frustrating experience to say the least... if you want an image with even a basic level of specificity and detail then you're going to be disappointed. This post is a reflection on my experience, my understanding of current limitations, and some suggestions for your own prompts.
@@ -54,17 +52,17 @@ _"But those sailboats are moving in the same direction. Try again, and I'll be m
 All attempts were futile.
 
 ## Actions
-Getting a character to perform an action is a difficult task. Your mileage will vary and it really depends on the action's sophistication. Here's an example from my art for "The System of Dr. Tarr and Professer Fether", trying to re-create the asylum patient who fancied himself as a champagne bottle, and liked to make a bottle popping sound by putting his thumb inside his cheek and swiftly pulling it out:
+Getting a character to perform an action is a difficult task. Your mileage may vary and it really depends on the action's sophistication. Here's an example trying to re-create the asylum patient who thinks he is a champagne bottle from Edgar Allan Poe's short story _"The System of Dr. Tarr and Professer Fether"_. His defining characteristic is he would make a bottle popping and fizzing sound by putting his thumb inside his cheek and swiftly pulling it out:
 
 ![actions-1]({{site.baseurl}}/images/dalle-reflections/actions/1.jpg)
 
-It looks like a crazy guy in the 19th century with a thing for champagne, that's for sure. But I had no hope in DALLE3 recreating the man making the popping sound.
+It looks like a crazy guy in the 19th century with a thing for champagne, that's for sure. But I tried several times and had no hope in DALLE recreating the thumb-popping action.
 
-Now, this post isn't supposed to be all negative... Here's an action that DALLE nailed. Another patient in the asylum believed he was a donkey, and liked to eat thistles in the yard. DALLE gave me exactly what I wanted.
+Now, this post isn't supposed to be all negative... Here's an action that DALLE nailed. Another character from the asylum believed he was a donkey and liked to eat thistles in the yard. DALLE gave me exactly what I wanted:
 
 ![actions-2]({{site.baseurl}}/images/dalle-reflections/actions/2.jpg)
 
-He's about to chomp down on a thistle. He kind of looks like a donkey. He's definitely insane. I was very happy with this one.
+He's about to chomp down on a thistle. He kind of looks like a donkey. He's definitely insane. I was very happy with this one. This is to reiterate that your mileage may vary.
 
 ## Artistic Styles
 The artistic style requests were really hit or miss. Sometimes it would nail it, other times it would refuse to give you anything but the distinctive "AI" style of polished surfaces, over-refinement of details, a lot of lighting and depth effects, and other attributes that make you look at the image and say "ya, that's was definitely created by an AI".
@@ -73,11 +71,11 @@ Here's an example in an expressionist style that I was **extremely** happy with.
 
 <em>
 
-Now for the final scene, where the murderer is running around the streets mad, about to confess. Here's a passage:
+"Now for the final scene, where the murderer is running around the streets mad, about to confess. Here's a passage:
 
 At first, I made an effort to shake off this nightmare of the soul. I walked vigorously -- faster -- still faster -- at length I ran. I felt a maddening desire to shriek aloud. Every succeeding wave of thought overwhelmed me with new terror, for, alas! I well, too well understood that to think, in my situation, was to be lost. I still quickened my pace. I bounded like a madman through the crowded thoroughfares. At length, the populace took the alarm, and pursued me. I felt then the consummation of my fate. Could I have torn out my tongue, I would have done it, but a rough voice resounded in my ears -- a rougher grasp seized me by the shoulder. I turned -- I gasped for breath. For a moment I experienced all the pangs of suffocation; I became blind, and deaf, and giddy; and then some invisible fiend, I thought, struck me with his broad palm upon the back. The long imprisoned secret burst forth from my soul.
 
-Can you show him in the crowd, surrounded by surprised and curious faces, with some men grabbing and restraining him because he is acting crazy right before the confession?
+Can you show him in the crowd, surrounded by surprised and curious faces, with some men grabbing and restraining him because he is acting crazy right before the confession?"
 
 </em>
 
