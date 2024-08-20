@@ -3,6 +3,8 @@ layout: post
 title: Reflections on DALLE-3, and using it to generate art for Edgar Allan Poe's short stories
 ---
 
+WIP
+
 I'm a longtime chatgpt user, but a very recent user of its image generation capabilities ([DALLE-3](https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise/)).
 
 I generated over 100 images in the last two weeks for my upcoming NFT collection (more on that in a future post). It was a frustrating experience to say the least... if you want an image with even a basic level of specificity and detail, you're going to end up disappointed. This post is a reflection on my experience, my understanding of current limitations, and some suggestions for your own image prompts.
@@ -69,7 +71,31 @@ Now, this post isn't supposed to be all negative... Here's an action that DALLE 
 He's about to chomp down on a thistle. He kind of looks like a donkey. He's definitely insane. I was very happy with this one.
 
 ### Artistic Styles
-Artistic style is another axis by which to judge DALLE.
+The artistic style requests were really hit or miss. Sometimes it would nail it, other times it would refuse to give you anything but the distinctive "AI" style of polished surfaces, over-refinement of details, a lot of lighting and depth effects, and other attributes that make you look at the image and say "ya, that's was definitely created by an AI".
+
+Here's an example in an expressionist style that I was **extremely** happy with.
+
+<em>
+
+Now for the final scene, where the murderer is running around the streets mad, about to confess. Here's a passage:
+
+At first, I made an effort to shake off this nightmare of the soul. I walked vigorously -- faster -- still faster -- at length I ran. I felt a maddening desire to shriek aloud. Every succeeding wave of thought overwhelmed me with new terror, for, alas! I well, too well understood that to think, in my situation, was to be lost. I still quickened my pace. I bounded like a madman through the crowded thoroughfares. At length, the populace took the alarm, and pursued me. I felt then the consummation of my fate. Could I have torn out my tongue, I would have done it, but a rough voice resounded in my ears -- a rougher grasp seized me by the shoulder. I turned -- I gasped for breath. For a moment I experienced all the pangs of suffocation; I became blind, and deaf, and giddy; and then some invisible fiend, I thought, struck me with his broad palm upon the back. The long imprisoned secret burst forth from my soul.
+
+Can you show him in the crowd, surrounded by surprised and curious faces, with some men grabbing and restraining him because he is acting crazy right before the confession?
+
+</em>
+
+In this conversation I requested that chatgpt make a style recommendation before actually generating the image. It Dark Realism and Expressionism for this prompt, and I asked it for Expressionism:
+
+![artistic-style-1]({{site.baseurl}}/images/dalle-reflections/artistic-style/1.jpg)
+
+Here's an example with a lackluster result where I requested an image in the style of a renaissance painting:
+
+_Generate an image, in the style of a renaissance painting, of two men looking into a big treasure chest. The chest is overflowing with gold, silver, jewels, and jewellery. It is night time and the treasure is emanating a glow. The men are form the 19th century, so dress them accordingly._
+
+Now, I don't claim to be an expert in renaissnace paintings, but there's something about this that's not quite renaissance-esque. The lighting, the depth, and the detail look a lot like the iconic "AI" style.
+
+![artistic-style-2]({{site.baseurl}}/images/dalle-reflections/artistic-style/2.jpg)
 
 ### Content Policy violations
 How often you encounter this really depends on the content you want to generate. As Edgar Allan Poe's stories are gothic and macabre, I often pushed the envelope on this one. In certain scenes, it would refuse to generate what I asked for, citing a content policy violation. I could reply like "Ok, well can we de-emphasize the aspects of the scene that violate the policy, maybe make them not as graphic. Can you get as true to my requets as possible _without_ violating your policies?". Believe it or not, that sometimes worked!
