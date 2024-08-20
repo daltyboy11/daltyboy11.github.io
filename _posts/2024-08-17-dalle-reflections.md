@@ -117,3 +117,15 @@ And it gave me something I could work with:
 
 ![content-policy-1]({{site.baseurl}}/images/dalle-reflections/content-policy/1.jpg)
 
+## Conclusion
+There are pieces in the NFT collection that I'm not entirely satisfied, and there are a few I really liked. All things considered, I think the art is _good enough_, and I'm going to proceed with the NFT. From start to finish, I got a lot better at extracting what I wanted out of DALLE.
+
+Now for a more general reflection on the capabilities of AI. This post comes right around when a talk from Eric Schmidt at Standford surfaced online. The video is somewhat controversial and was taken down from Youtube, but you can find the <a href="https://github.com/ociubotaru/transcripts/blob/main/Stanford_ECON295%E2%A7%B8CS323_I_2024_I_The_Age_of_AI%2C_Eric_Schmidt.txt?utm_source=dlvr.it&utm_medium=twitter" target="_blank">transcript on GitHub</a>.
+
+> If TikTok is banned, here's what I propose each and every one of you do. Say to your LLM the following: Make me a copy of TikTok, steal all the users, steal all the music, put my preferences in it, produce this program in the next 30 seconds, release it and in one hour, if it's not viral, do something different along the same lines. That's the command. Boom, boom, boom, boom.
+
+In light of my experience I can't help but chuckle and write this off as far-fetched science fiction. There is an unfathomoble level of complexity and ambiguity in Schmidt's prompt, yet the publicly available state of the art can't figure out how to make an image of two boats sailing opposite directions.
+
+I said _publicly_ because fine, maybe the AI labs have a Skunkworks with the LLM equivalent of a <a href="https://web.archive.org/web/20240819123807/https://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird" target="_blank">SR-71 Blackbird</a> and I'm not one of the cool kid's who knows about it.
+
+Don't get me wrong, I think we'll get there eventually and I think it will be before I die. Call me an AI skeptic in the short-term, not the long term. But judging by today's publicly available models, we're several orders of magnitude of capability away from fulfulling Schmidt's Tiktok copycat prompt.
