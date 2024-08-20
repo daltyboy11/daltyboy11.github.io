@@ -5,53 +5,55 @@ title: Reflections on DALLE-3, and using it to generate art for Edgar Allan Poe'
 
 WIP
 
-I'm a longtime chatgpt user, but a very recent user of its image generation capabilities ([DALLE-3](https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise/)).
+I'm a longtime chatgpt user but a very recent user of its image generation capabilities ([DALLE-3](https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise/)).
 
 I generated over 100 images in the last two weeks for an upcoming NFT collection. It was a frustrating experience to say the least... if you want an image with even a basic level of specificity and detail then you're going to be disappointed. This post is a reflection on my experience, my understanding of current limitations, and some suggestions for your own prompts.
 
-First, I want to be clear that current models are **extremely impressive** for what they are! Just look at [where we were two years ago compared to where we are now](https://web.archive.org/web/20240524162516/https://medium.com/@junehao/comparing-ai-generated-images-two-years-apart-2022-vs-2024-6c3c4670b905). I have immense respect and admiration for the researchers and engineers innovating in this space. This post is more about expectation setting. If you're trying to depict a detailed scene, with all the characters in the right place, doing the right action, and so on, you're going to have a bad time, because these models just can't do it. The alternate explanation, to maintain some humility, is that I'm a terrible prompter. Not at all unlikely, and please [let me know](mailto:dalton.g.sweeney@gmail.com) if you think so!
+First, I want to be clear that current models are **extremely impressive** for what they are! Just look at <a href="https://web.archive.org/web/20240524162516/https://medium.com/@junehao/comparing-ai-generated-images-two-years-apart-2022-vs-2024-6c3c4670b905" target="_blank">where we were two years ago compared to where we are now</a>. I have immense respect and admiration for the researchers and engineers innovating in this space. This post is more about expectation setting. If you're trying to depict a detailed scene, with all the characters in the right place, doing the right action, and so on, you're going to have a bad time, because these models just can't do it. The alternate explanation, to maintain some humility, is that I'm a terrible prompter. Not at all unlikely, and please [let me know](mailto:dalton.g.sweeney@gmail.com) if you think so!
 
 I divided my evaluation into five categories:
 
 1. **Quantity**: how many of something you want in the image
 2. **Orientation**: how is the thing in your image positioned
 3. **Action**: what is the thing in your image doing
-4. **Artistic Style**
-5. **Content Policy** violations, and working within its boundaries
+4. **Artistic Style**: how do you want your image to look
+5. **Content Policy**: violations and working within their boundaries
 
 Let's look at each one in turn.
 
-### Quantity
-When it comes to telling it _how many_ of a thing you want, it mostly struggles to fulfill this request. The big problem is what I call _dud objects_. Example:
+## Quantity
+When it comes to telling DALLE _how many_ of a thing you want, it struggles to fulfill this request for even the most basic prompts. The big problem is what I call _dud objects_. Example:
 
 _"Two sailboats in the ocean sailing side by side. Aerial view"._ 
 
 ![sailboats-extraneous-object]({{site.baseurl}}/images/dalle-reflections/quantity/1.jpg)
 
-There are two prominent sailboats in the result but you can see an artifact on the left. It's smaller and not quite a sailboat, yet exhibits some attributes of a boat. It has an oblong shape and leaves a wake in its path. This is a dud object. DALLE consistently inserts dud objects in the result, which are essentially botched and smaller versions of the main object.
+There are two prominent sailboats in the result but you can see an artifact on the left. It's smaller and not quite a sailboat, yet exhibits some sailboat attributes. It has an oblong shape and leaves a wake in its path. This sailboat is a _dud_. DALLE consistently inserts dud objects in the result, which are essentially botched and smaller versions of the main object.
 
-Telling it you don't want extraneous objects _sometimes_ does the trick. In this case I actually was able to get the desired result:
+Telling it you don't want extraneous objects sometimes does the trick. In this case I actually was able to get the desired result:
 
 _"Sorry, I wasn't clear. I want the two sailboats to be the only objects in the water. No extraneous objects."_
 
 ![sailboats-no-extraneous-object]({{site.baseurl}}/images/dalle-reflections/quantity/2.jpg)
 
-This trick works when the prompt is stupidly simple, not really more complex than _"Give me two of X"_. As we shall see in the next section, the trick doesn't work beyond this basic category of prompts.
+This trick works when the prompt is stupidly simple, not really more complex than _"Give me two of X"_. As we shall see in the next section, the trick doesn't work beyond this basic category.
 
-### Orientation
-It's terrible at orienting objects they way you ask. It simply can't do it. To extend the sailboat example in the previous section, let's make one small change to that prompt:
+## Orientation
+DALLE is terrible at orienting objects they way you ask, either in an absolute position or relative to another object in the image. It simply can't do it. To extend the sailboat example in the previous section, let's make one small change to the prompt:
 
 _"Two sailboats in the ocean, sailing in opposite directions. Aerial view. They are the only boats in the water."_
 
 ![orientation-1]({{site.baseurl}}/images/dalle-reflections/orientation/1.jpg)
 
-We upped the complexity a bit by asking it for boats sailing in _opposite_ directions. It cannot reorient the boats in opposite directions no matter how much you iterate. Furthermore, the dud object problem is worse. If you can reliably get orientation right, I would really like to hear from you.
+We upped the complexity ever so slightly by asking it for boats sailing in _opposite_ directions. It could not orient the boats in opposite directions no matter how much I iterated. Furthermore, the dud sailboat problem got worse. If you can reliably get orientation right, I would really like to hear from you.
 
 _"But those sailboats are moving in the same direction. Try again, and I'll be more specific: Image of two sailboats viewed from above, moving in opposite directions, one west and one east, along the line. They are the only boats in the water. No extraneous details or objects please."_
 
 ![orientation-2]({{site.baseurl}}/images/dalle-reflections/orientation/2.jpg)
 
-### Actions
+All attempts were futile.
+
+## Actions
 Getting a character to perform an action is a difficult task. Your mileage will vary. It really depends on the sophistication of the action. Here's an example from my art for "The System of Dr. Tarr and Professer Fether", trying to re-create the asylum patient who fancied himself as a champagne bottle, and liked to make a bottle popping sound by putting his thumb inside his cheek and swiftly pulling it out:
 
 ![actions-1]({{site.baseurl}}/images/dalle-reflections/orientation/1.jpg)
@@ -64,7 +66,7 @@ Now, this post isn't supposed to be all negative... Here's an action that DALLE 
 
 He's about to chomp down on a thistle. He kind of looks like a donkey. He's definitely insane. I was very happy with this one.
 
-### Artistic Styles
+## Artistic Styles
 The artistic style requests were really hit or miss. Sometimes it would nail it, other times it would refuse to give you anything but the distinctive "AI" style of polished surfaces, over-refinement of details, a lot of lighting and depth effects, and other attributes that make you look at the image and say "ya, that's was definitely created by an AI".
 
 Here's an example in an expressionist style that I was **extremely** happy with.
@@ -91,7 +93,7 @@ Now, I don't claim to be an expert in renaissnace paintings, but there's somethi
 
 ![artistic-style-2]({{site.baseurl}}/images/dalle-reflections/artistic-style/2.jpg)
 
-### Content Policy violations
+## Content Policy violations
 How often you encounter this really depends on the content you want to generate. As Edgar Allan Poe's stories are gothic and macabre, I often pushed the envelope on this one. In certain scenes, it would refuse to generate what I asked for, citing a content policy violation. I could reply like "Ok, well can we de-emphasize the aspects of the scene that violate the policy, maybe make them not as graphic. Can you get as true to my requets as possible _without_ violating your policies?". Believe it or not, that sometimes worked!
 
 In the final scene of _The Facts in the Case of M. Valdemar_ (spoiler alert), old man Valdemar, whose "dead" body has been suspended in a trance for months, finally breaks out of the mesmeric suspension and disintegrates:
@@ -110,7 +112,3 @@ And it gave me something I could work with:
 
 ![content-policy-1]({{site.baseurl}}/images/dalle-reflections/content-policy/1.jpg)
 
-# Appendix of Edgar Allan Poe shor story art
-If you're wondering why I generated > 100 images in the first place, it's because I wanted art for an upcoming NFT collection related to the works of Edgar Allan Poe, of whom I am a huge fan. Here is that art. Prompts aren't included because in most cases it was an iterative process of refinement, going back and forth with chatgpt.
-
-Ok, you might be reading that last paragraph and ask yourself, "well, duh, why did you expect them to be able to...". My answer to that is ok, maybe I should have had more realistic expectations for what it could do. But I didn't, and I'm someone in tech who keeps up to speed with this stuff better than most. If my expectations were not aligned with reality, then I think others might have the same problem.
