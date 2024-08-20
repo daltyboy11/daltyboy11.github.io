@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Reflections on DALLE-3, and using it to generate art for Edgar Allan Poe's short stories
+title: Reflections on DALLE-3 after creating 100+ images for an NFT collection
 ---
 
 I'm a longtime chatgpt user but a very recent user of its image generation capabilities ([DALLE-3](https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise/)).
 
-I generated over 100 images in the last two weeks for an upcoming NFT collection. It was a frustrating experience to say the least... if you want an image with even a basic level of specificity and detail then you're going to be disappointed. This post is a reflection on my experience, my understanding of current limitations, and some suggestions for your own prompts.
+I generated over 100 images in the last two weeks for an upcoming NFT collection (more on that in a future post). It was a frustrating experience to say the least... if you want an image with even a basic level of specificity and detail then you're going to be disappointed. This post is a reflection on my experience, my understanding of current limitations, and some suggestions for your own prompts.
 
 First, I want to be clear that current models are **extremely impressive** for what they are! Just look at <a href="https://web.archive.org/web/20240524162516/https://medium.com/@junehao/comparing-ai-generated-images-two-years-apart-2022-vs-2024-6c3c4670b905" target="_blank">where we were two years ago compared to where we are now</a>. I have immense respect and admiration for the researchers and engineers innovating in this space. This post is more about expectation setting. If you're trying to depict a detailed scene, with all the characters in the right place, doing the right action, and so on, you're going to have a bad time, because these models just can't do it. The alternate explanation, to maintain some humility, is that I'm a terrible prompter. Not at all unlikely, and please [let me know](mailto:dalton.g.sweeney@gmail.com) if you think so!
 
