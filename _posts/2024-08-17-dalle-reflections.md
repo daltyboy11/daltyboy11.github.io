@@ -22,39 +22,32 @@ I divided my evaluation into five categories:
 Let's look at each one in turn.
 
 ### Quantity
-It struggles to fulfill a prompt that asks for a specific quantity of things. Example:
+When it comes to telling it _how many_ of a thing you want, it mostly struggles to fulfill this request. The big problem is what I call _dud objects_. Example:
 
 _"Two sailboats in the ocean sailing side by side. Aerial view"._ 
 
 ![sailboats-extraneous-object]({{site.baseurl}}/images/dalle-reflections/quantity/1.jpg)
 
-There are two prominent sailboats in the result, but you can see an artifact on the left. It's smaller and not quite a sailboat, yet exhibits some attributes of a boat, like the wake it leaves in its path. DALLE consistently inserts these dud objects in the result, which are essentially botched and smaller versions of the main object.
+There are two prominent sailboats in the result but you can see an artifact on the left. It's smaller and not quite a sailboat, yet exhibits some attributes of a boat. It has an oblong shape and leaves a wake in its path. This is a dud object. DALLE consistently inserts dud objects in the result, which are essentially botched and smaller versions of the main object.
 
 Telling it you don't want extraneous objects _sometimes_ does the trick. In this case I actually was able to get the desired result:
 
-_Sorry, I wasn't clear. I want the two sailboats to be the only objects in the water. No extraneous objects._
+_"Sorry, I wasn't clear. I want the two sailboats to be the only objects in the water. No extraneous objects."_
 
 ![sailboats-no-extraneous-object]({{site.baseurl}}/images/dalle-reflections/quantity/2.jpg)
 
-This trick works when the prompt is stupidly simple, not really more complex than _"Give me two of $X"_ where X is your object. As we shall see in the next section, the trick doesn't work beyond this basic prompt category.
+This trick works when the prompt is stupidly simple, not really more complex than _"Give me two of X"_. As we shall see in the next section, the trick doesn't work beyond this basic category of prompts.
 
 ### Orientation
-DALLE is terrible at orienting objects they way you ask. It simply can't do it. To extend the sailboat example in the previous section:
+It's terrible at orienting objects they way you ask. It simply can't do it. To extend the sailboat example in the previous section, let's make one small change to that prompt:
 
-_Two sailboats in the ocean, sailing in opposite directions. Aerial view. They are the only boats in the water._
+_"Two sailboats in the ocean, sailing in opposite directions. Aerial view. They are the only boats in the water."_
 
 ![orientation-1]({{site.baseurl}}/images/dalle-reflections/orientation/1.jpg)
 
-I basically asked it for the same prompt, explicitly asking for just the two boats, but sailing in _opposite_ directions. It cannot re-orient the boats in opposite directions no matter how much you iterate. And we also see that it can't remove the extraneous objects, now that the promp is a little more complex.
+We upped the complexity a bit by asking it for boats sailing in _opposite_ directions. It cannot reorient the boats in opposite directions no matter how much you iterate. Furthermore, the dud object problem is worse. If you can reliably get orientation right, I would really like to hear from you.
 
-<em>
-But those sailboats are moving in the same direction. Try again, and I'll be more specific: 
-
-<br>
-
-Image of two sailboats viewed from above, moving in opposite directions, one west and one east, along the line. They are the only boats in the water. No extraneous details or objects please.
-</em>
-
+_"But those sailboats are moving in the same direction. Try again, and I'll be more specific: Image of two sailboats viewed from above, moving in opposite directions, one west and one east, along the line. They are the only boats in the water. No extraneous details or objects please."_
 
 ![orientation-2]({{site.baseurl}}/images/dalle-reflections/orientation/2.jpg)
 
