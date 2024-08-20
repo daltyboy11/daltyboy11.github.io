@@ -53,17 +53,35 @@ Getting a character to perform an action is a difficult task. Your mileage will 
 
 ![actions-1]({{site.baseurl}}/images/dalle-reflections/orientation/1.jpg)
 
-It looks like a crazy guy in the 19th century with a thing for champagne, to be sure. But I had no hope in getting DALLE3 to re-create the man making the popping sound.
+It looks like a crazy guy in the 19th century with a thing for champagne, that's for sure. But I had no hope in DALLE3 recreating the man making the popping sound.
 
-This post isn't supposed to be all negative. Here's an action that DALLE3 nailed. Another patient in the asylum believed he was a donkey, and liked to eat thistles in the yard.
+Now, this post isn't supposed to be all negative... Here's an action that DALLE nailed. Another patient in the asylum believed he was a donkey, and liked to eat thistles in the yard. DALLE gave me exactly what I wanted.
 
 ![actions-2]({{site.baseurl}}/images/dalle-reflections/orientation/2.jpg)
 
-We've got him about to chomp down on a thistle. He face kind of looks like a donkey. He's definitely insane. I was very happy with this one.
+He's about to chomp down on a thistle. He kind of looks like a donkey. He's definitely insane. I was very happy with this one.
 
 ### Artistic Styles
+Artistic style is another axis by which to judge DALLE.
 
-## Content Policy violations
+### Content Policy violations
+How often you encounter this really depends on the content you want to generate. As Edgar Allan Poe's stories are gothic and macabre, I often pushed the envelope on this one. In certain scenes, it would refuse to generate what I asked for, citing a content policy violation. I could reply like "Ok, well can we de-emphasize the aspects of the scene that violate the policy, maybe make them not as graphic. Can you get as true to my requets as possible _without_ violating your policies?". Believe it or not, that sometimes worked!
+
+In the final scene of _The Facts in the Case of M. Valdemar_ (spoiler alert), old man Valdemar, whose "dead" body has been suspended in a trance for months, finally breaks out of the mesmeric suspension and disintegrates:
+
+_As I rapidly made the mesmeric passes, amid ejaculations of “dead! dead!” absolutely bursting from the tongue and not from the lips of the sufferer, his whole frame at once — within the space of a single minute, or even less — shrunk — crumbled — absolutely rotted away beneath my hands. Upon the bed, before that whole company, there lay a nearly liquid mass of loathsome — of detestable putrescence._
+
+This was too graphic for DALLE:
+
+_I was unable to generate the image due to a violation of the content policy, likely because of the extreme nature of the scene described. The content policy restricts the generation of images that involve highly graphic, violent, or disturbing content._
+
+To which I replied:
+
+_Can you de-emphasize the grotesqueness to the minimum extent to which the content policy isn't violated and try again? Basically a more mild version of what I requested._
+
+And it gave me something I could work with:
+
+![content-policy-1]({{site.baseurl}}/images/dalle-reflections/content-policy/1.jpg)
 
 # Appendix of Edgar Allan Poe shor story art
 If you're wondering why I generated > 100 images in the first place, it's because I wanted art for an upcoming NFT collection related to the works of Edgar Allan Poe, of whom I am a huge fan. Here is that art. Prompts aren't included because in most cases it was an iterative process of refinement, going back and forth with chatgpt.
