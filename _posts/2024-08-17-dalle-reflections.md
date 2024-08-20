@@ -54,15 +54,15 @@ _"But those sailboats are moving in the same direction. Try again, and I'll be m
 All attempts were futile.
 
 ## Actions
-Getting a character to perform an action is a difficult task. Your mileage will vary. It really depends on the sophistication of the action. Here's an example from my art for "The System of Dr. Tarr and Professer Fether", trying to re-create the asylum patient who fancied himself as a champagne bottle, and liked to make a bottle popping sound by putting his thumb inside his cheek and swiftly pulling it out:
+Getting a character to perform an action is a difficult task. Your mileage will vary and it really depends on the action's sophistication. Here's an example from my art for "The System of Dr. Tarr and Professer Fether", trying to re-create the asylum patient who fancied himself as a champagne bottle, and liked to make a bottle popping sound by putting his thumb inside his cheek and swiftly pulling it out:
 
-![actions-1]({{site.baseurl}}/images/dalle-reflections/orientation/1.jpg)
+![actions-1]({{site.baseurl}}/images/dalle-reflections/actions/1.jpg)
 
 It looks like a crazy guy in the 19th century with a thing for champagne, that's for sure. But I had no hope in DALLE3 recreating the man making the popping sound.
 
 Now, this post isn't supposed to be all negative... Here's an action that DALLE nailed. Another patient in the asylum believed he was a donkey, and liked to eat thistles in the yard. DALLE gave me exactly what I wanted.
 
-![actions-2]({{site.baseurl}}/images/dalle-reflections/orientation/2.jpg)
+![actions-2]({{site.baseurl}}/images/dalle-reflections/actions/2.jpg)
 
 He's about to chomp down on a thistle. He kind of looks like a donkey. He's definitely insane. I was very happy with this one.
 
