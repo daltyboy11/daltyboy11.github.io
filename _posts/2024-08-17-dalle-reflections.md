@@ -7,16 +7,17 @@ WIP
 
 I'm a longtime chatgpt user, but a very recent user of its image generation capabilities ([DALLE-3](https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise/)).
 
-I generated over 100 images in the last two weeks for my upcoming NFT collection (more on that in a future post). It was a frustrating experience to say the least... if you want an image with even a basic level of specificity and detail, you're going to end up disappointed. This post is a reflection on my experience, my understanding of current limitations, and some suggestions for your own image prompts.
+I generated over 100 images in the last two weeks for an upcoming NFT collection. It was a frustrating experience to say the least... if you want an image with even a basic level of specificity and detail then you're going to be disappointed. This post is a reflection on my experience, my understanding of current limitations, and some suggestions for your own prompts.
 
-First, I want to be clear that current models are extremely impressive for what they are! Just look at [where we were two years ago compared to where we are now](https://medium.com/@junehao/comparing-ai-generated-images-two-years-apart-2022-vs-2024-6c3c4670b905). I have immense respect and admiration for all the researchers and engineers working innovating in this space. This post is more about expectation setting. If you're trying to depict a detailed scene, with all the characters in the right place, doing the right action, and so on, you're going to have a bad time, because these models just can't do it. The alternate explanation, to maintain some humility, is that I'm a terrible prompter. Not at all unlikely.
+First, I want to be clear that current models are **extremely impressive** for what they are! Just look at [where we were two years ago compared to where we are now](https://web.archive.org/web/20240524162516/https://medium.com/@junehao/comparing-ai-generated-images-two-years-apart-2022-vs-2024-6c3c4670b905). I have immense respect and admiration for the researchers and engineers innovating in this space. This post is more about expectation setting. If you're trying to depict a detailed scene, with all the characters in the right place, doing the right action, and so on, you're going to have a bad time, because these models just can't do it. The alternate explanation, to maintain some humility, is that I'm a terrible prompter. Not at all unlikely, and please [let me know](mailto:dalton.g.sweeney@gmail.com) if you think so!
 
-I divided my evaluation of its limitations into four categories
-1. Quantity: how many of something you want in the image
-2. Orientation: how is the thing in your image positioned
-3. Action: what is the thing in your image doing
-4. Artistic style
-5. Content policy violations, and working within its boundaries
+I divided my evaluation into five categories:
+
+1. **Quantity**: how many of something you want in the image
+2. **Orientation**: how is the thing in your image positioned
+3. **Action**: what is the thing in your image doing
+4. **Artistic Style**
+5. **Content Policy** violations, and working within its boundaries
 
 Let's look at each one in turn.
 
