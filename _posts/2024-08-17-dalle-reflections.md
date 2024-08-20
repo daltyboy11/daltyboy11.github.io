@@ -52,13 +52,19 @@ _"But those sailboats are moving in the same direction. Try again, and I'll be m
 All attempts were futile.
 
 ## Actions
-Getting a character to perform an action is a difficult task. Your mileage may vary and it really depends on the action's sophistication. Here's an example trying to re-create the asylum patient who thinks he is a champagne bottle from Edgar Allan Poe's short story _"The System of Dr. Tarr and Professer Fether"_. His defining characteristic is he would make a bottle popping and fizzing sound by putting his thumb inside his cheek and swiftly pulling it out:
+Getting a character to perform an action is a difficult task. Your mileage may vary and it really depends on the action's sophistication.
+
+### A negative result
+
+Here's an example trying to re-create the asylum patient who thinks he is a champagne bottle from Edgar Allan Poe's short story _"The System of Dr. Tarr and Professer Fether"_. His defining characteristic is he would make a bottle popping and fizzing sound by putting his thumb inside his cheek and swiftly pulling it out:
 
 ![actions-1]({{site.baseurl}}/images/dalle-reflections/actions/1.jpg)
 
 It looks like a crazy guy in the 19th century with a love for champagne, that's for sure. But I tried several times and had no hope in DALLE recreating the thumb-popping action.
 
-Now for a positive result. DALLE nailed this other character from the asylum believed he was a donkey and liked to eat thistles in the yard. It gave me exactly what I wanted:
+### A postive result
+
+Now for a rare positive result. DALLE nailed this other character from the asylum believed he was a donkey and liked to eat thistles in the yard. It gave me exactly what I wanted:
 
 ![actions-2]({{site.baseurl}}/images/dalle-reflections/actions/2.jpg)
 
@@ -67,35 +73,45 @@ He's about to chomp down on a thistle. He kind of looks like a donkey. He's defi
 ## Artistic Styles
 The artistic style requests were hit or miss. Sometimes DALLE would nail it, other times it would refuse to give you anything but the distinctive "AI" style of polished surfaces, over-refined details, and exaggerated lighting and depth effects. These are attributes that make you look at the image and say _"that's was definitely created by an AI"_.
 
+### A positive result
+
 Here's an example in an expressionist style that it nailed. In this conversation I requested that it make a style recommendation _before_ generating the image. I would then choose a style and it would proceed to create the image. It recommended Dark Realism or Expressionism for this prompt, and I chose the latter: 
 
 <i>"Now for the final scene, where the murderer is running around the streets mad, about to confess. Here's a passage: <br><br>At first, I made an effort to shake off this nightmare of the soul. I walked vigorously -- faster -- still faster -- at length I ran. I felt a maddening desire to shriek aloud. Every succeeding wave of thought overwhelmed me with new terror, for, alas! I well, too well understood that to think, in my situation, was to be lost. I still quickened my pace. I bounded like a madman through the crowded thoroughfares. At length, the populace took the alarm, and pursued me. I felt then the consummation of my fate. Could I have torn out my tongue, I would have done it, but a rough voice resounded in my ears -- a rougher grasp seized me by the shoulder. I turned -- I gasped for breath. For a moment I experienced all the pangs of suffocation; I became blind, and deaf, and giddy; and then some invisible fiend, I thought, struck me with his broad palm upon the back. The long imprisoned secret burst forth from my soul. <br><br>Can you show him in the crowd, surrounded by surprised and curious faces, with some men grabbing and restraining him because he is acting crazy right before the confession?"</i>
 
-
 ![artistic-style-1]({{site.baseurl}}/images/dalle-reflections/artistic-style/1.jpg)
 
-Here's an example with a lackluster result where I requested an image in the style of a renaissance painting:
+### A negative result
 
-_Generate an image, in the style of a renaissance painting, of two men looking into a big treasure chest. The chest is overflowing with gold, silver, jewels, and jewellery. It is night time and the treasure is emanating a glow. The men are form the 19th century, so dress them accordingly._
+And here's a lackluster result where I asked for a renaissance painting:
 
-Now, I don't claim to be an expert in renaissnace paintings, but there's something about this that's not quite renaissance-esque. The lighting, the depth, and the detail look a lot like the iconic "AI" style.
+_"Generate an image, in the style of a renaissance painting, of two men looking into a big treasure chest. The chest is overflowing with gold, silver, jewels, and jewellery. It is night time and the treasure is emanating a glow. The men are form the 19th century, so dress them accordingly."_
+
+By no means do I claim to be an expert in renaissnace paintings, but there's something about this that's not renaissance-y. The "AI" style lighting, depth, and exaggerated detail come out despite trying to constrain it to the renaissance era.
 
 ![artistic-style-2]({{site.baseurl}}/images/dalle-reflections/artistic-style/2.jpg)
 
 ## Content Policy violations
-How often you encounter this really depends on the content you want to generate. As Edgar Allan Poe's stories are gothic and macabre, I often pushed the envelope on this one. In certain scenes, it would refuse to generate what I asked for, citing a content policy violation. I could reply like "Ok, well can we de-emphasize the aspects of the scene that violate the policy, maybe make them not as graphic. Can you get as true to my requets as possible _without_ violating your policies?". Believe it or not, that sometimes worked!
 
-In the final scene of _The Facts in the Case of M. Valdemar_ (spoiler alert), old man Valdemar, whose "dead" body has been suspended in a trance for months, finally breaks out of the mesmeric suspension and disintegrates:
+How often you encounter this really depends on your content. The focus for my NFT art was Edgar Allan Poe's short stories, which have gothic and macabre settings. I had to walk a fine line on the edge of what the content policy allows.
 
-_As I rapidly made the mesmeric passes, amid ejaculations of “dead! dead!” absolutely bursting from the tongue and not from the lips of the sufferer, his whole frame at once — within the space of a single minute, or even less — shrunk — crumbled — absolutely rotted away beneath my hands. Upon the bed, before that whole company, there lay a nearly liquid mass of loathsome — of detestable putrescence._
+### Negotiating with it?!
+
+In certain scenes DALLE would refuse to generate what I asked for, but was forgiving and willing to work with me on my art. I could reply like _"Ok, well what if we de-emphasize the aspects of the scene that violate your policy, maybe make them not as graphic. Can you get as true to the scene as possible without violating your policies?"_. Believe it or not, that sometimes worked!
+
+This felt kafka-esque and dystopian. Imagine we extrapolate to a future with a much more powerful AI, and your account on a platfor you use frequently has been suspended by an automated AI flagging system. Now imaging you believe your account was wrongly suspended and you submit an appeal, but the appeal itself is reviewed by the AI! You cannot precisely know why your account was suspended in the first place or why your appeal is rejected because these models are black boxes. It feels hopeless. My "negotiations" with DALLE and chatgpt felt like the beginnings of that.
+
+In the final scene of _The Facts in the Case of M. Valdemar_ (spoiler alert), old man Valdemar, whose dead body has been suspended in a trance for months, finally breaks from the mesmeric suspension and disintegrates:
+
+_"As I rapidly made the mesmeric passes, amid ejaculations of “dead! dead!” absolutely bursting from the tongue and not from the lips of the sufferer, his whole frame at once — within the space of a single minute, or even less — shrunk — crumbled — absolutely rotted away beneath my hands. Upon the bed, before that whole company, there lay a nearly liquid mass of loathsome — of detestable putrescence."_
 
 This was too graphic for DALLE:
 
-_I was unable to generate the image due to a violation of the content policy, likely because of the extreme nature of the scene described. The content policy restricts the generation of images that involve highly graphic, violent, or disturbing content._
+_"I was unable to generate the image due to a violation of the content policy, likely because of the extreme nature of the scene described. The content policy restricts the generation of images that involve highly graphic, violent, or disturbing content."_
 
 To which I replied:
 
-_Can you de-emphasize the grotesqueness to the minimum extent to which the content policy isn't violated and try again? Basically a more mild version of what I requested._
+_"Can you de-emphasize the grotesqueness to the minimum extent to which the content policy isn't violated and try again? Basically a more mild version of what I requested."_
 
 And it gave me something I could work with:
 
