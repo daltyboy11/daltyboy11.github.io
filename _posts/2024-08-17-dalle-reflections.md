@@ -65,21 +65,18 @@ Now for a positive result. DALLE nailed this other character from the asylum bel
 He's about to chomp down on a thistle. He kind of looks like a donkey. He's definitely insane. I was very happy with this one. This is to reiterate that your mileage may vary.
 
 ## Artistic Styles
-The artistic style requests were really hit or miss. Sometimes it would nail it, other times it would refuse to give you anything but the distinctive "AI" style of polished surfaces, over-refinement of details, a lot of lighting and depth effects, and other attributes that make you look at the image and say "ya, that's was definitely created by an AI".
+The artistic style requests were hit or miss. Sometimes DALLE would nail it, other times it would refuse to give you anything but the distinctive "AI" style of polished surfaces, over-refined details, and exaggerated lighting and depth effects. These are attributes that make you look at the image and say _"that's was definitely created by an AI"_.
 
-Here's an example in an expressionist style that I was **extremely** happy with.
+Here's an example in an expressionist style that it nailed. In this conversation I requested that it make a style recommendation _before_ generating the image. I would then choose a style and it would proceed to create the image. It recommended Dark Realism or Expressionism for this prompt, and I chose the latter: 
 
 <i>
-
 "Now for the final scene, where the murderer is running around the streets mad, about to confess. Here's a passage:
 
 At first, I made an effort to shake off this nightmare of the soul. I walked vigorously -- faster -- still faster -- at length I ran. I felt a maddening desire to shriek aloud. Every succeeding wave of thought overwhelmed me with new terror, for, alas! I well, too well understood that to think, in my situation, was to be lost. I still quickened my pace. I bounded like a madman through the crowded thoroughfares. At length, the populace took the alarm, and pursued me. I felt then the consummation of my fate. Could I have torn out my tongue, I would have done it, but a rough voice resounded in my ears -- a rougher grasp seized me by the shoulder. I turned -- I gasped for breath. For a moment I experienced all the pangs of suffocation; I became blind, and deaf, and giddy; and then some invisible fiend, I thought, struck me with his broad palm upon the back. The long imprisoned secret burst forth from my soul.
 
 Can you show him in the crowd, surrounded by surprised and curious faces, with some men grabbing and restraining him because he is acting crazy right before the confession?"
-
 </i>
 
-In this conversation I requested that chatgpt make a style recommendation before actually generating the image. It Dark Realism and Expressionism for this prompt, and I asked it for Expressionism:
 
 ![artistic-style-1]({{site.baseurl}}/images/dalle-reflections/artistic-style/1.jpg)
 
