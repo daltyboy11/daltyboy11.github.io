@@ -56,9 +56,9 @@ Getting a character to perform an action is a difficult task. Your mileage may v
 
 ![actions-1]({{site.baseurl}}/images/dalle-reflections/actions/1.jpg)
 
-It looks like a crazy guy in the 19th century with a thing for champagne, that's for sure. But I tried several times and had no hope in DALLE recreating the thumb-popping action.
+It looks like a crazy guy in the 19th century with a love for champagne, that's for sure. But I tried several times and had no hope in DALLE recreating the thumb-popping action.
 
-Now, this post isn't supposed to be all negative... Here's an action that DALLE nailed. Another character from the asylum believed he was a donkey and liked to eat thistles in the yard. DALLE gave me exactly what I wanted:
+Now for a positive result. DALLE nailed this other character from the asylum believed he was a donkey and liked to eat thistles in the yard. It gave me exactly what I wanted:
 
 ![actions-2]({{site.baseurl}}/images/dalle-reflections/actions/2.jpg)
 
@@ -69,7 +69,7 @@ The artistic style requests were really hit or miss. Sometimes it would nail it,
 
 Here's an example in an expressionist style that I was **extremely** happy with.
 
-<em>
+<i>
 
 "Now for the final scene, where the murderer is running around the streets mad, about to confess. Here's a passage:
 
@@ -77,7 +77,7 @@ At first, I made an effort to shake off this nightmare of the soul. I walked vig
 
 Can you show him in the crowd, surrounded by surprised and curious faces, with some men grabbing and restraining him because he is acting crazy right before the confession?"
 
-</em>
+</i>
 
 In this conversation I requested that chatgpt make a style recommendation before actually generating the image. It Dark Realism and Expressionism for this prompt, and I asked it for Expressionism:
 
