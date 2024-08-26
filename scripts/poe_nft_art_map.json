@@ -1,0 +1,466 @@
+{
+    "0": {
+        "title": "The Devil in the Belfry",
+        "image": "the-devil-in-the-belfry/the-devil-in-the-belfry.jpg"
+    },
+    "1": {
+        "title": "Diddling Considered as One of the Exact Sciences",
+        "image": "diddling-considered-an-exact-science/platos-man.jpg"
+    },
+    "2": {
+        "title": "The Imp of the Perverse",
+        "image": "imp-of-the-perverse/apprehended.jpg"
+    },
+    "3": {
+        "title": "The Imp of the Perverse",
+        "image": "imp-of-the-perverse/apprehended.jpg"
+    },
+    "4": {
+        "title": "The Imp of the Perverse",
+        "image": "imp-of-the-perverse/candle-swap-1.jpg"
+    },
+    "5": {
+        "title": "The Imp of the Perverse",
+        "image": "imp-of-the-perverse/candle-swap-2.jpg"
+    },
+    "6": {
+        "title": "The Facts in the Case of M. Valdemar",
+        "image": "facts-in-the-case-of-m-valdemar/face.jpg"
+    },
+    "7": {
+        "title": "The Facts in the Case of M. Valdemar",
+        "image": "facts-in-the-case-of-m-valdemar/death.jpg"
+    },
+    "8": {
+        "title": "The Facts in the Case of M. Valdemar",
+        "image": "facts-in-the-case-of-m-valdemar/mesmer.jpg"
+    },
+    "9": {
+        "title": "Eleonora",
+        "image": "eleonora/eleonora.jpg"
+    },
+    "10": {
+        "title": "A Descent into the Maelström",
+        "image": "descent-into-the-maelstrom/approach.jpg"
+    },
+    "11": {
+        "title": "A Descent into the Maelström",
+        "image": "descent-into-the-maelstrom/barrel.jpg"
+    },
+    "12": {
+        "title": "A Descent into the Maelström",
+        "image": "descent-into-the-maelstrom/beginnings.jpg"
+    },
+    "13": {
+        "title": "The Tell-Tale Heart",
+        "image": "the-telltale-heart/vulture-eye.jpg"
+    },
+    "14": {
+        "title": "Metzengerstein: A Tale in Imitation of the German",
+        "image": "metzengerstein/tapestry.jpg"
+    },
+    "15": {
+        "title": "Metzengerstein: A Tale in Imitation of the German",
+        "image": "metzengerstein/to-the-castle.jpg"
+    },
+    "16": {
+        "title": "The Spectacles",
+        "image": "the-spectacles/shock.jpg"
+    },
+    "17": {
+        "title": "The Masque of the Red Death",
+        "image": "mask-of-the-red-death/intruder.jpg"
+    },
+    "18": {
+        "title": "The Masque of the Red Death",
+        "image": "mask-of-the-red-death/violet.jpg"
+    },
+    "19": {
+        "title": "Hop-Frog",
+        "image": "hop-frog/frog.jpg"
+    },
+    "20": {
+        "title": "Hop-Frog",
+        "image": "hop-frog/wine.jpg"
+    },
+    "21": {
+        "title": "The Oblong Box",
+        "image": "the-oblong-box/box.jpg"
+    },
+    "22": {
+        "title": "The Gold-Bug",
+        "image": "the-gold-bug/beetle.jpg"
+    },
+    "23": {
+        "title": "The Gold-Bug",
+        "image": "the-gold-bug/skull.jpg"
+    },
+    "24": {
+        "title": "The Gold-Bug",
+        "image": "the-gold-bug/in-the-tree.jpg"
+    },
+    "25": {
+        "title": "The Gold-Bug",
+        "image": "the-gold-bug/treasure.jpg"
+    },
+    "26": {
+        "title": "The Fall of the House of Usher",
+        "image": "the-fall-of-the-house-of-usher/arrival.jpg"
+    },
+    "27": {
+        "title": "The Fall of the House of Usher",
+        "image": "the-fall-of-the-house-of-usher/ethelred.jpg"
+    },
+    "28": {
+        "title": "The Fall of the House of Usher",
+        "image": "the-fall-of-the-house-of-usher/madeline-returns.jpg"
+    },
+    "29": {
+        "title": "The Fall of the House of Usher",
+        "image": "the-fall-of-the-house-of-usher/collapse.jpg"
+    },
+    "30": {
+        "title": "The Sphinx",
+        "image": "the-sphinx/monster.jpg"
+    },
+    "31": {
+        "title": "Thou Art the Man",
+        "image": "thou-art-the-man/reveal.jpg"
+    },
+    "32": {
+        "title": "The Murders in the Rue Morgue",
+        "image": "murders-in-the-rue-morgue/murder.jpg"
+    },
+    "33": {
+        "title": "The Murders in the Rue Morgue",
+        "image": "murders-in-the-rue-morgue/chimney-girl.jpg"
+    },
+    "34": {
+        "title": "The Murders in the Rue Morgue",
+        "image": "murders-in-the-rue-morgue/sailor-in-cage.jpg"
+    },
+    "35": {
+        "title": "The Mystery of Marie Rogêt",
+        "image": "mystery-of-marie-roget/perfumery.jpg"
+    },
+    "36": {
+        "title": "The Mystery of Marie Rogêt",
+        "image": "mystery-of-marie-roget/body.jpg"
+    },
+    "37": {
+        "title": "The Mystery of Marie Rogêt",
+        "image": "mystery-of-marie-roget/newspapers.jpg"
+    },
+    "38": {
+        "title": "MS. Found in a Bottle",
+        "image": "ms-found-in-a-bottle/bottle.jpg"
+    },
+    "39": {
+        "title": "A Tale of Jerusalem",
+        "image": "a-tale-of-jerusalem/pig.jpg"
+    },
+    "40": {
+        "title": "The Business Man",
+        "image": "the-business-man/cat-grabbing.jpg"
+    },
+    "41": {
+        "title": "The Business Man",
+        "image": "the-business-man/cur-spattering.jpg"
+    },
+    "42": {
+        "title": "The Business Man",
+        "image": "the-business-man/organ-grinding.jpg"
+    },
+    "43": {
+        "title": "The Purloined Letter",
+        "image": "the-purloined-letter/theft.jpg"
+    },
+    "44": {
+        "title": "The Purloined Letter",
+        "image": "the-purloined-letter/search.jpg"
+    },
+    "45": {
+        "title": "The Purloined Letter",
+        "image": "the-purloined-letter/swap.jpg"
+    },
+    "46": {
+        "title": "The Purloined Letter",
+        "image": "the-purloined-letter/ending.jpg"
+    },
+    "47": {
+        "title": "The System of Doctor Tarr and Professor Fether",
+        "image": "system-of-dr-tarr-and-professor-fether/champagne-man.jpg"
+    },
+    "48": {
+        "title": "The System of Doctor Tarr and Professor Fether",
+        "image": "system-of-dr-tarr-and-professor-fether/cheese-man.jpg"
+    },
+    "49": {
+        "title": "The System of Doctor Tarr and Professor Fether",
+        "image": "system-of-dr-tarr-and-professor-fether/chicken-woman.jpg"
+    },
+    "50": {
+        "title": "The System of Doctor Tarr and Professor Fether",
+        "image": "system-of-dr-tarr-and-professor-fether/donkey-man.jpg"
+    },
+    "51": {
+        "title": "The System of Doctor Tarr and Professor Fether",
+        "image": "system-of-dr-tarr-and-professor-fether/double-head-man.jpg"
+    },
+    "52": {
+        "title": "The System of Doctor Tarr and Professor Fether",
+        "image": "system-of-dr-tarr-and-professor-fether/frog-man.jpg"
+    },
+    "53": {
+        "title": "The System of Doctor Tarr and Professor Fether",
+        "image": "system-of-dr-tarr-and-professor-fether/pumpkin-man.jpg"
+    },
+    "54": {
+        "title": "The System of Doctor Tarr and Professor Fether",
+        "image": "system-of-dr-tarr-and-professor-fether/teapot-man.jpg"
+    },
+    "55": {
+        "title": "The System of Doctor Tarr and Professor Fether",
+        "image": "system-of-dr-tarr-and-professor-fether/tee-totum-man.jpg"
+    },
+    "56": {
+        "title": "The Black Cat",
+        "image": "the-black-cat/hanging.jpg"
+    },
+    "57": {
+        "title": "The Black Cat",
+        "image": "the-black-cat/fire.jpg"
+    },
+    "58": {
+        "title": "The Black Cat",
+        "image": "the-black-cat/cellar.jpg"
+    },
+    "59": {
+        "title": "The Man That Was Used Up",
+        "image": "the-man-that-was-used-up/general.jpg"
+    },
+    "60": {
+        "title": "Never Bet The Devil Your Head",
+        "image": "never-bet-the-devil-your-head/devil.jpg"
+    },
+    "61": {
+        "title": "The Thousand-and-Second Tale of Scheherazade",
+        "image": "thousand-and-second-tale-of-scheherazade/birds-and-bees.jpg"
+    },
+    "62": {
+        "title": "The Thousand-and-Second Tale of Scheherazade",
+        "image": "thousand-and-second-tale-of-scheherazade/chess.jpg"
+    },
+    "63": {
+        "title": "The Thousand-and-Second Tale of Scheherazade",
+        "image": "thousand-and-second-tale-of-scheherazade/plants.jpg"
+    },
+    "64": {
+        "title": "The Thousand-and-Second Tale of Scheherazade",
+        "image": "thousand-and-second-tale-of-scheherazade/scythe.jpg"
+    },
+    "65": {
+        "title": "The Thousand-and-Second Tale of Scheherazade",
+        "image": "thousand-and-second-tale-of-scheherazade/sky-cow.jpg"
+    },
+    "66": {
+        "title": "Some Words with a Mummy",
+        "image": "some-words-with-a-mummy/conversation.jpg"
+    },
+    "67": {
+        "title": "Morella",
+        "image": "morella/childbirth.jpg"
+    },
+    "68": {
+        "title": "Morella",
+        "image": "morella/mother-and-daughter.jpg"
+    },
+    "69": {
+        "title": "Morella",
+        "image": "morella/studying.jpg"
+    },
+    "70": {
+        "title": "The Pit and the Pendulum",
+        "image": "the-pit-and-the-pendulum/pendulum.jpg"
+    },
+    "71": {
+        "title": "The Oval Portrait",
+        "image": "the-oval-portrait/painting.jpg"
+    },
+    "72": {
+        "title": "Von Kempelen and his Discovery",
+        "image": "von-kempelen-and-his-discovery/philosophers-stone.jpg"
+    },
+    "73": {
+        "title": "The Unparalleled Adventure of One Hans Pfaall",
+        "image": "the-unparalleled-adventure-of-one-hans-pfaall/balloon.jpg"
+    },
+    "74": {
+        "title": "The Unparalleled Adventure of One Hans Pfaall",
+        "image": "the-unparalleled-adventure-of-one-hans-pfaall/encounter.jpg"
+    },
+    "75": {
+        "title": "William Wilson",
+        "image": "william-wilson/card-game.jpg"
+    },
+    "76": {
+        "title": "Three Sundays in a Week",
+        "image": "three-sundays-in-a-week/boats.jpg"
+    },
+    "77": {
+        "title": "Mellonta Tauta",
+        "image": "mellonta-tauta/writing.jpg"
+    },
+    "78": {
+        "title": "Why the Little Frenchman Wears His Hand in a Sling" ,
+        "image": "why-the-little-frenchman-wears-his-hand-in-a-sling/man.jpg"
+    },
+    "79": {
+        "title": "A Tale of the Ragged Mountains",
+        "image": "tale-of-the-ragged-mountains/augustus-bedloe.jpg"
+    },
+    "80": {
+        "title": "A Tale of the Ragged Mountains",
+        "image": "tale-of-the-ragged-mountains/bazaar.jpg"
+    },
+    "81": {
+        "title": "Silence - A Fable",
+        "image": "silence-a-fable/toga.jpg"
+    },
+    "82": {
+        "title": "Shadow - A Parable",
+        "image": "shadow-a-parable/friends.jpg"
+    },
+    "83": {
+        "title": "The Power of Words",
+        "image": "the-power-of-words/speaking.jpg"
+    },
+    "84": {
+        "title": "Von Jung (Mystification)",
+        "image": "mystification/mirror.jpg"
+    },
+    "85": {
+        "title": "Mesmeric Revelation",
+        "image": "mesmeric-revelation/revelation.jpg"
+    },
+    "86": {
+        "title": "A Predicament",
+        "image": "a-predicament/zenobia.jpg"
+    },
+    "87": {
+        "title": "The Premature Burial",
+        "image": "the-premature-burial/berth.jpg"
+    },
+    "88": {
+        "title": "The Premature Burial",
+        "image": "the-premature-burial/vault.jpg"
+    },
+    "89": {
+        "title": "X-ing a Paragrab",
+        "image": "x-ing-a-paragrab/paper.jpg"
+    },
+    "90": {
+        "title": "The Conversation of Eiros and Charmion",
+        "image": "conversation-of-eiros-and-charmion/afterlife.jpg"
+    },
+    "91": {
+        "title": "The Conversation of Eiros and Charmion",
+        "image": "conversation-of-eiros-and-charmion/approach.jpg"
+    },
+    "92": {
+        "title": "The Conversation of Eiros and Charmion",
+        "image": "conversation-of-eiros-and-charmion/ignition.jpg"
+    },
+    "93": {
+        "title": "The Duc De L'Omelette",
+        "image": "duc-de-lomelette/cards.jpg"
+    },
+    "94": {
+        "title": "Four Beasts in One",
+        "image": "four-beasts-in-one/homo-camelopard.jpg"
+    },
+    "95": {
+        "title": "How to Write A Blackwood Article",
+        "image": "how-to-write-a-blackwood-article/mr-blackwood-and-zenobia.jpg"
+    },
+    "96": {
+        "title": "The Island of the Fay",
+        "image": "island-of-the-fay/fay.jpg"
+    },
+    "97": {
+        "title": "King Pest",
+        "image": "king-pest/ana-pest.jpg"
+    },
+    "98": {
+        "title": "King Pest",
+        "image": "king-pest/gouty-old-man.jpg"
+    },
+    "99": {
+        "title": "King Pest",
+        "image": "king-pest/horrors-gentleman.jpg"
+    },
+    "100": {
+        "title": "King Pest",
+        "image": "king-pest/hugh-tarpaulin.jpg"
+    },
+    "101": {
+        "title": "King Pest",
+        "image": "king-pest/king-pest.jpg"
+    },
+    "102": {
+        "title": "King Pest",
+        "image": "king-pest/legs.jpg"
+    },
+    "103": {
+        "title": "King Pest",
+        "image": "king-pest/paralyzed-man.jpg"
+    },
+    "104": {
+        "title": "King Pest",
+        "image": "king-pest/queen-pest.jpg"
+    },
+    "105": {
+        "title": "Landor's Cottage",
+        "image": "landors-cottage/cottage.jpg"
+    },
+    "106": {
+        "title": "Ligeia",
+        "image": "ligeia/ligeia.jpg"
+    },
+    "107": {
+        "title": "Ligeia",
+        "image": "ligeia/resurrection.jpg"
+    },
+    "108": {
+        "title": "Lionizing",
+        "image": "lionizing/nose.jpg"
+    },
+    "109": {
+        "title": "Loss of Breath",
+        "image": "loss-of-breath/breath.jpg"
+    },
+    "110": {
+        "title": "The Man of the Crowd",
+        "image": "man-of-the-crowd/following.jpg"
+    }, 
+    "111": {
+        "title": "The Man of the Crowd",
+        "image": "man-of-the-crowd/people-watching.jpg"
+    },
+    "112": {
+        "title": "The Cask of Amontillado",
+        "image": "the-cask-of-amontillado/behind-the-wall.jpg"
+    },
+    "113": {
+        "title": "The Cask of Amontillado",
+        "image": "the-cask-of-amontillado/chained.jpg"
+    },
+    "114": {
+        "title": "The Colloquy of Monos and Una",
+        "image": "the-colloquy-of-monos-and-una/dialogue.jpg"
+    },
+    "115": {
+        "title": "The Domain of Arnheim",
+        "image": "the-domain-of-arnheim/arnheim.jpg"
+    }
+}
