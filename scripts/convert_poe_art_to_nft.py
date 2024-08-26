@@ -30,7 +30,7 @@ os.makedirs(output_images_dir, exist_ok=True)
 
 for key, value in art_map.items():
     image_path = os.path.join(input_images_dir, value['image'])
-    output_path = os.path.join(output_images_dir, f"{key}.jpg")
+    output_path = os.path.join(output_images_dir, f"{key}")
     
     # Copy the image file to the new location with the new name
     shutil.copy(image_path, output_path)
