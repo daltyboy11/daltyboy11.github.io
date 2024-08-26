@@ -4,4 +4,4 @@ title: about me
 permalink: /about/
 ---
 
-Software engineer interested in web3 and DeFi
+Software engineer interested in crypto an defi.
