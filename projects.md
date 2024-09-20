@@ -26,3 +26,9 @@ A free [cross-chain USDC bridging tool](https://www.easybridge.io/) that interfa
 the next up and coming memecoin (just kidding).
 
 Read more about EasyBridge in my [announcement post](https://daltyboy11.github.io/easybridge/).
+
+## Onchain Horoscopes
+Visit https://zodiacdaily.xyz/ to get your daily horoscope in exchange for 1 USDC. Your horoscope is sent directly to your wallet address using [XMTP](https://xmtp.org/), the open protocol for web3 messaging.
+
+## Onchain Facts
+Visit https://onchainfacts.xyz/ to learn random facts about Cats, Dogs, The Roman Empire, and more! In exchange for 1 USDC I'll send you 10 fun facts directly to your wallet address using [XMTP](https://xmtp.org/), the open protocol for web3 messaging.
