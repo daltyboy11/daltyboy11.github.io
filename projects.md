@@ -6,6 +6,11 @@ permalink: /projects/
 
 Things I've made, mostly for fun.
 
+## Poe NFT
+An [NFT collection](https://nft-title-exchange.vercel.app/) inspired by the short stories of one of my favorite authors, Edgar Allan Poe.
+
+This is the first collection to implement _title transfers_ and the _right of reclaim_ for royalties, described in the a16zcrypto blog post _[How NFT royalties work: Designs, challenges, and new ideas](https://a16zcrypto.com/posts/article/how-nft-royalties-work/)_
+
 ## Grindset Alarm
 An [themed alarm clock app](https://apps.apple.com/us/app/grindset-alarm/id6503418886) for iOS to wake up with motivation and crush your daily goals! 
 
