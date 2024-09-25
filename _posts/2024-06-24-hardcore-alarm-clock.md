@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A hardcore alarm clock.
+title: A Hardcore Alarm Clock
 ---
 
 Do you ever snooze your alarm clock? When your alarm starts ringing at 7 AM do you want to spring out of bed and seize the day, or do you want to return to the comfort of your slumber?
