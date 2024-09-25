@@ -25,7 +25,7 @@ And that’s it! Simple, yet tranquil. If you're a user of the app and have any 
 
 ---
 
-### Privacy Policy for Demure Wakeup
+<h1 id="privacy-policy-for-demure-wakeup">Privacy Policy for Demure Wakeup</h1>
 
 **Effective Date: September 25, 2024**
 
