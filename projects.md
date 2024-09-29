@@ -6,13 +6,16 @@ permalink: /projects/
 
 Things I've made, mostly for fun.
 
+## Demure Wakeup
+A [themed alarm clock app][https://apps.apple.com/us/app/demure-wakeup/id6711348495?platform=iphone] for the demure, cutesy, and mindful. Available on iOS.
+
 ## Poe NFT
 An [NFT collection](https://nft-title-exchange.vercel.app/) inspired by the short stories of one of my favorite authors, Edgar Allan Poe.
 
 This is the first collection to implement _title transfers_ and the _right of reclaim_ for royalties, described in the a16zcrypto blog post _[How NFT royalties work: Designs, challenges, and new ideas](https://a16zcrypto.com/posts/article/how-nft-royalties-work/)_
 
 ## Grindset Alarm
-An [themed alarm clock app](https://apps.apple.com/us/app/grindset-alarm/id6503418886) for iOS to wake up with motivation and crush your daily goals! 
+A [themed alarm clock app](https://apps.apple.com/us/app/grindset-alarm/id6503418886) for iOS to wake up with motivation and crush your daily goals! 
 
 I used DALLE to make the art, and the alarm tones are from various Youtube videos.
 
