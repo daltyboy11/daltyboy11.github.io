@@ -7,7 +7,7 @@ permalink: /projects/
 Things I've made, mostly for fun.
 
 ## Demure Wakeup
-A [themed alarm clock app][https://apps.apple.com/us/app/demure-wakeup/id6711348495?platform=iphone] for the demure, cutesy, and mindful. Available on iOS.
+A [themed alarm clock app](https://apps.apple.com/us/app/demure-wakeup/id6711348495?platform=iphone) for the demure, cutesy, and mindful. Available on iOS.
 
 ## Poe NFT
 An [NFT collection](https://nft-title-exchange.vercel.app/) inspired by the short stories of one of my favorite authors, Edgar Allan Poe.
