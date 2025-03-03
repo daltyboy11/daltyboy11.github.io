@@ -1,29 +1,39 @@
 ---
 layout: post
 title: Poe NFT Launch!
+description: "PoeNFT is the first NFT collection to feature onchain title transfers and reclaim rights. Inspired by the works of Edgar Allan Poe, it brings literary lore and novel mechanics to Base, complete with a rewards game for guessing each piece's story."
 ---
 
-I'm pleased to share that my PoeNFT collection has finally launched on Base! You can see it here: https://www.poenft.com/
+I'm thrilled to share that my **PoeNFT** collection has officially launched on Base!  
+Explore the collection: [https://www.poenft.com/](https://www.poenft.com/)
 
-I made [the announcement](https://warpcast.com/dgs/0x79a88c0f) on Warpcast and it was well received. The collection wasn't fully minted but there were certainly more mints than I expected.
+I [announced the launch](https://warpcast.com/dgs/0x79a88c0f) on Warpcast, and it was received better than I expected—while the collection didn’t mint out entirely, it saw far more mints than I had anticipated.
 
 ![Poe NFT Launch Cast Screenshot](/assets/poe-nft-launch-cast.png)
 
-
 ## What makes Poe NFT special?
 
-### A novel ERC721 Implementation
+### 🏛️ A Novel ERC721 Implementation
 
-Many months ago, I wrote about [ERC721Reclaimable](https://daltyboy11.github.io/ERC721Reclaimable/), my implementation of title
-transfers and the right of reclaim explained in the a16zcrypto article [_How NFT royalties work: Designs, challenges, and new ideas_](https://a16zcrypto.com/posts/article/how-nft-royalties-work/). To the best of my knowledge, Poe NFT is **the first NFT collection featuring title transfers and the right of reclaim**
+Many months back, I wrote about [**ERC721Reclaimable**](https://daltyboy11.github.io/ERC721Reclaimable/), my take on implementing title transfers and the right of reclaim, as explored in the a16zcrypto article [_How NFT royalties work: Designs, challenges, and new ideas_](https://a16zcrypto.com/posts/article/how-nft-royalties-work/).
 
-### The Art
-It's called _Poe_ NFT because the art for every piece is inspired by the short stories of Edgar Allan Poe. Every short story has one or more pieces in the collection. [Here's](https://www.goodreads.com/book/show/23919.The_Complete_Stories_and_Poems) the complete collection of stories and poems on Goodreads, which I read last year to great enjoyment.
+**PoeNFT** is the first collection to bring these mechanics onchain—allowing holders to transfer *title* separately from *ownership* and reclaim tokens under certain conditions.
 
-And for the art itself, each one was laboriously prompted to DALLE by yours truly, a process that involved much learning and iteration, especially given the macabre and gothic content of much of his stories. I wrote a post, [_Reflections on DALLE-3 after creating 100+ images for an NFT collection_](https://daltyboy11.github.io/dalle-reflections/), detailing the experience.
+### 🎨 The Art
 
-### A Rewards Contract
+Why _Poe_ NFT?  
+Because every piece draws inspiration from the short stories of **Edgar Allan Poe**. Each story in his body of work is represented by one or more pieces in the collection. If you're curious, [here’s the complete collection](https://www.goodreads.com/book/show/23919.The_Complete_Stories_and_Poems) I read (and thoroughly enjoyed) last year.
 
-But wait... there's more! To spice things up, I deployed a Rewards contract for the collection, which you can use to refund your mint fee if you can guess which story your piece belongs to.
+As for the art itself—every image was laboriously crafted with **DALL·E**, a process that involved quite a bit of trial, error, and iteration, especially given Poe’s distinctly macabre and gothic aesthetic. I documented the experience in [_Reflections on DALL·E-3 after creating 100+ images for an NFT collection_](https://daltyboy11.github.io/dalle-reflections/).
 
-The site hosts a ["How It Works" section](https://www.poenft.com/rewards/how-it-works) for the Rewards Contract, explaining how the contract uses ECDSA signatures to verify the correct title without that title ever being exposed in plaintext onchain. The mechanism was inspired by the [Social Dist0rtion Protocol](https://www.dist0rtion.com/2020/01/30/Planetscape-a-dystopian-escape-game-for-36C3/).
+### 🎁 A Rewards Contract
+
+And as a final touch: **there’s a game.**
+
+I built a **Rewards Contract** that lets you reclaim your mint fee—if you can correctly guess which story your piece represents.
+
+The ["How It Works" section](https://www.poenft.com/rewards/how-it-works) on the site explains the mechanism. In short, it uses **ECDSA signatures** to verify correct guesses without ever revealing the title onchain—a kind of primitive zero knowledge proof. The design takes inspiration from the [**Social Dist0rtion Protocol**](https://www.dist0rtion.com/2020/01/30/Planetscape-a-dystopian-escape-game-for-36C3/), ensuring the answer stays hidden while still allowing trustless verification.
+
+---
+
+Thanks to all who've supported the project so far. It’s been a labor of love, and I'm excited to see where others take the title ownership concept!
