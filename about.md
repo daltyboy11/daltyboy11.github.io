@@ -4,4 +4,4 @@ title: about me
 permalink: /about/
 ---
 
-Software engineer exploring crypto,fintech, and AI.
+Software engineer with interest and experience in fintech, AI, and crypto.
